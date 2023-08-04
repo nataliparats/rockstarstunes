@@ -1,0 +1,68 @@
+package nl.teamrockstars.rockstarstunes.repo
+
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.fasterxml.jackson.module.kotlin.readValue
+import nl.teamrockstars.rockstarstunes.model.Artist
+import nl.teamrockstars.rockstarstunes.model.Song
+import org.springframework.stereotype.Component
+import java.io.InputStream
+
+@Component
+class RepoDataDeserializer {
+
+    fun deserializeUniqueArtistsJson(json: InputStream): MutableList<Artist> {
+        val mapper = jacksonObjectMapper()
+        val artistsJson = mapper.readValue<List<ArtistJson>>(json)
+
+        return artistsJson
+            .map { it.toArtist() }
+            .distinctBy { it.name }
+            .toMutableList()
+    }
+
+    fun deserializeUniqueSongsJson(json: InputStream): MutableList<Song> {
+        val mapper = jacksonObjectMapper()
+        val songsJson = mapper.readValue<List<SongJson>>(json)
+
+        return songsJson
+            .map { it.toSong() }
+            .toMutableList()
+    }
+}
+
+private data class ArtistJson(
+    val Id: Int,
+    val Name: String
+) {
+    fun toArtist() = Artist(
+        this.Id.toLong(),
+        this.Name
+    )
+}
+
+private data class SongJson(
+    val Id: Int,
+    val Name: String,
+    val Year: Int,
+    val Artist: String,
+    val Shortname: String,
+    val Bpm: Int,
+    val Duration: Long,
+    val Genre: String,
+    val SpotifyId: String?,
+    val Album: String?
+) {
+    fun toSong() = Song(
+        this.Id.toLong(),
+        this.Name,
+        this.Year,
+        this.Artist,
+        this.Shortname,
+        this.Bpm,
+        this.Duration,
+        this.Genre,
+        this.SpotifyId,
+        this.Album
+    )
+}
+

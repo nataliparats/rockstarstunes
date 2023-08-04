@@ -1,10 +1,10 @@
-package nl.teamrockstars.interviewdemo
+package nl.teamrockstars.rockstarstunes
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class InterviewdemoApplicationTests {
+class RockStarsTunesApplicationTests {
 
 	@Test
 	fun contextLoads() {

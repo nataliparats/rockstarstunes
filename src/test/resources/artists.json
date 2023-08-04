@@ -1,0 +1,3554 @@
+[
+  {
+    "Id": 760,
+    "Name": "\"Weird Al\" Yankovic"
+  },
+  {
+    "Id": 3,
+    "Name": ".38 Special"
+  },
+  {
+    "Id": 1,
+    "Name": "3 Doors Down"
+  },
+  {
+    "Id": 2,
+    "Name": "30 Seconds to Mars"
+  },
+  {
+    "Id": 585,
+    "Name": "311"
+  },
+  {
+    "Id": 577,
+    "Name": "4 Non Blondes"
+  },
+  {
+    "Id": 630,
+    "Name": "5 Seconds of Summer"
+  },
+  {
+    "Id": 4,
+    "Name": "88"
+  },
+  {
+    "Id": 600,
+    "Name": "a-ha"
+  },
+  {
+    "Id": 6,
+    "Name": "Abnormality"
+  },
+  {
+    "Id": 7,
+    "Name": "AC/DC"
+  },
+  {
+    "Id": 8,
+    "Name": "Ace Frehley"
+  },
+  {
+    "Id": 864,
+    "Name": "Ace of Base"
+  },
+  {
+    "Id": 9,
+    "Name": "Acro-brats"
+  },
+  {
+    "Id": 10,
+    "Name": "Aerosmith"
+  },
+  {
+    "Id": 11,
+    "Name": "AFI"
+  },
+  {
+    "Id": 12,
+    "Name": "Against Me!"
+  },
+  {
+    "Id": 837,
+    "Name": "Against the Current"
+  },
+  {
+    "Id": 13,
+    "Name": "Airbourne"
+  },
+  {
+    "Id": 584,
+    "Name": "Alabama Shakes"
+  },
+  {
+    "Id": 14,
+    "Name": "Alan Jackson"
+  },
+  {
+    "Id": 15,
+    "Name": "Alanis Morissette"
+  },
+  {
+    "Id": 16,
+    "Name": "Alice Cooper"
+  },
+  {
+    "Id": 17,
+    "Name": "Alice In Chains"
+  },
+  {
+    "Id": 18,
+    "Name": "Alien Ant Farm"
+  },
+  {
+    "Id": 19,
+    "Name": "All That Remains"
+  },
+  {
+    "Id": 20,
+    "Name": "All Time Low"
+  },
+  {
+    "Id": 21,
+    "Name": "All-American Rejects"
+  },
+  {
+    "Id": 22,
+    "Name": "Allman Brothers Band"
+  },
+  {
+    "Id": 23,
+    "Name": "Alphabeat"
+  },
+  {
+    "Id": 869,
+    "Name": "Amon Amarth"
+  },
+  {
+    "Id": 24,
+    "Name": "Amy Winehouse"
+  },
+  {
+    "Id": 601,
+    "Name": "Anaïs"
+  },
+  {
+    "Id": 25,
+    "Name": "Anarchy Club"
+  },
+  {
+    "Id": 26,
+    "Name": "Anberlin"
+  },
+  {
+    "Id": 602,
+    "Name": "Andrew W.K."
+  },
+  {
+    "Id": 786,
+    "Name": "Andy Grammer"
+  },
+  {
+    "Id": 27,
+    "Name": "Angels & Airwaves"
+  },
+  {
+    "Id": 819,
+    "Name": "Animal Flag"
+  },
+  {
+    "Id": 603,
+    "Name": "Animotion"
+  },
+  {
+    "Id": 28,
+    "Name": "Anthrax"
+  },
+  {
+    "Id": 29,
+    "Name": "Anvil"
+  },
+  {
+    "Id": 838,
+    "Name": "Arctic Horror"
+  },
+  {
+    "Id": 541,
+    "Name": "Arctic Monkeys"
+  },
+  {
+    "Id": 766,
+    "Name": "asdasdf"
+  },
+  {
+    "Id": 859,
+    "Name": "Asia"
+  },
+  {
+    "Id": 877,
+    "Name": "Assuming We Survive"
+  },
+  {
+    "Id": 30,
+    "Name": "At the Drive-In"
+  },
+  {
+    "Id": 31,
+    "Name": "At the Gates"
+  },
+  {
+    "Id": 32,
+    "Name": "Atreyu"
+  },
+  {
+    "Id": 839,
+    "Name": "AudioDamn!"
+  },
+  {
+    "Id": 33,
+    "Name": "Audioslave"
+  },
+  {
+    "Id": 34,
+    "Name": "Authority Zero"
+  },
+  {
+    "Id": 35,
+    "Name": "Automatic"
+  },
+  {
+    "Id": 36,
+    "Name": "Avenged Sevenfold"
+  },
+  {
+    "Id": 37,
+    "Name": "Average White Band"
+  },
+  {
+    "Id": 809,
+    "Name": "Avicii"
+  },
+  {
+    "Id": 792,
+    "Name": "Avril Lavigne"
+  },
+  {
+    "Id": 38,
+    "Name": "B-52's"
+  },
+  {
+    "Id": 39,
+    "Name": "B.B. King"
+  },
+  {
+    "Id": 612,
+    "Name": "B.o.B (featuring Hayley Williams)"
+  },
+  {
+    "Id": 604,
+    "Name": "BABYMETAL"
+  },
+  {
+    "Id": 885,
+    "Name": "Bachman-Turner Overdrive"
+  },
+  {
+    "Id": 40,
+    "Name": "Bad Company"
+  },
+  {
+    "Id": 41,
+    "Name": "Bad Religion"
+  },
+  {
+    "Id": 487,
+    "Name": "Band"
+  },
+  {
+    "Id": 840,
+    "Name": "Band Of Horses"
+  },
+  {
+    "Id": 42,
+    "Name": "Bang Camaro"
+  },
+  {
+    "Id": 865,
+    "Name": "Bang on a Can All-Stars"
+  },
+  {
+    "Id": 43,
+    "Name": "Bangles"
+  },
+  {
+    "Id": 44,
+    "Name": "BAP"
+  },
+  {
+    "Id": 767,
+    "Name": "Barbazons"
+  },
+  {
+    "Id": 45,
+    "Name": "Barenaked Ladies"
+  },
+  {
+    "Id": 829,
+    "Name": "Basement"
+  },
+  {
+    "Id": 708,
+    "Name": "Bastille"
+  },
+  {
+    "Id": 46,
+    "Name": "BB Brunes"
+  },
+  {
+    "Id": 47,
+    "Name": "Beach Boys"
+  },
+  {
+    "Id": 808,
+    "Name": "Bearstronaut"
+  },
+  {
+    "Id": 48,
+    "Name": "Beastie Boys"
+  },
+  {
+    "Id": 814,
+    "Name": "Beatles"
+  },
+  {
+    "Id": 49,
+    "Name": "Beck"
+  },
+  {
+    "Id": 50,
+    "Name": "Bee Gees"
+  },
+  {
+    "Id": 51,
+    "Name": "Behemoth"
+  },
+  {
+    "Id": 769,
+    "Name": "Belinda Carlisle"
+  },
+  {
+    "Id": 52,
+    "Name": "Belly"
+  },
+  {
+    "Id": 53,
+    "Name": "Ben Harper and Relentless7"
+  },
+  {
+    "Id": 575,
+    "Name": "Benjamin Booker"
+  },
+  {
+    "Id": 820,
+    "Name": "Bent Knee"
+  },
+  {
+    "Id": 54,
+    "Name": "Between the Buried and Me"
+  },
+  {
+    "Id": 868,
+    "Name": "Big & Rich"
+  },
+  {
+    "Id": 55,
+    "Name": "Big Country"
+  },
+  {
+    "Id": 56,
+    "Name": "Big Dipper"
+  },
+  {
+    "Id": 57,
+    "Name": "Bikini Kill"
+  },
+  {
+    "Id": 606,
+    "Name": "Billy Currington"
+  },
+  {
+    "Id": 58,
+    "Name": "Billy Idol"
+  },
+  {
+    "Id": 59,
+    "Name": "Billy Joel"
+  },
+  {
+    "Id": 60,
+    "Name": "Billy Squier"
+  },
+  {
+    "Id": 821,
+    "Name": "Black Beach"
+  },
+  {
+    "Id": 845,
+    "Name": "Black Cheers"
+  },
+  {
+    "Id": 61,
+    "Name": "Black Crowes"
+  },
+  {
+    "Id": 62,
+    "Name": "Black Dahlia Murder"
+  },
+  {
+    "Id": 707,
+    "Name": "Black Eyed Peas"
+  },
+  {
+    "Id": 63,
+    "Name": "Black Keys"
+  },
+  {
+    "Id": 64,
+    "Name": "Black Rebel Motorcycle Club"
+  },
+  {
+    "Id": 65,
+    "Name": "Black Sabbath"
+  },
+  {
+    "Id": 66,
+    "Name": "Black Tide"
+  },
+  {
+    "Id": 586,
+    "Name": "Black Veil Brides"
+  },
+  {
+    "Id": 587,
+    "Name": "Blanks."
+  },
+  {
+    "Id": 67,
+    "Name": "Blind Melon"
+  },
+  {
+    "Id": 68,
+    "Name": "Blink-182"
+  },
+  {
+    "Id": 609,
+    "Name": "Blitz Kids"
+  },
+  {
+    "Id": 841,
+    "Name": "Blondfire"
+  },
+  {
+    "Id": 69,
+    "Name": "Blondie"
+  },
+  {
+    "Id": 610,
+    "Name": "Blood, Sweat & Tears"
+  },
+  {
+    "Id": 70,
+    "Name": "Blue Öyster Cult"
+  },
+  {
+    "Id": 875,
+    "Name": "Blue Swede"
+  },
+  {
+    "Id": 611,
+    "Name": "Blues Traveler"
+  },
+  {
+    "Id": 71,
+    "Name": "Blur"
+  },
+  {
+    "Id": 72,
+    "Name": "Bob Dylan"
+  },
+  {
+    "Id": 73,
+    "Name": "Bob Marley and the Wailers"
+  },
+  {
+    "Id": 74,
+    "Name": "Bon Jovi"
+  },
+  {
+    "Id": 613,
+    "Name": "Bonnie Tyler"
+  },
+  {
+    "Id": 75,
+    "Name": "Boston"
+  },
+  {
+    "Id": 562,
+    "Name": "Both"
+  },
+  {
+    "Id": 76,
+    "Name": "Boys Like Girls"
+  },
+  {
+    "Id": 77,
+    "Name": "Brad Paisley"
+  },
+  {
+    "Id": 569,
+    "Name": "Brad Paisley ft. Keith Urban"
+  },
+  {
+    "Id": 561,
+    "Name": "Brandi Carlile"
+  },
+  {
+    "Id": 78,
+    "Name": "Breaking Benjamin"
+  },
+  {
+    "Id": 79,
+    "Name": "Breaking Wheel"
+  },
+  {
+    "Id": 80,
+    "Name": "Brian Setzer"
+  },
+  {
+    "Id": 615,
+    "Name": "Bring Me The Horizon"
+  },
+  {
+    "Id": 81,
+    "Name": "Bronx"
+  },
+  {
+    "Id": 82,
+    "Name": "Brooks & Dunn"
+  },
+  {
+    "Id": 616,
+    "Name": "Bruno Mars"
+  },
+  {
+    "Id": 83,
+    "Name": "Bryan Adams"
+  },
+  {
+    "Id": 84,
+    "Name": "Buckcherry"
+  },
+  {
+    "Id": 617,
+    "Name": "Buffalo Springfield"
+  },
+  {
+    "Id": 85,
+    "Name": "Bullet For My Valentine"
+  },
+  {
+    "Id": 618,
+    "Name": "Bush"
+  },
+  {
+    "Id": 86,
+    "Name": "Busted"
+  },
+  {
+    "Id": 87,
+    "Name": "Buzzcocks"
+  },
+  {
+    "Id": 614,
+    "Name": "BØRNS"
+  },
+  {
+    "Id": 88,
+    "Name": "Cab"
+  },
+  {
+    "Id": 89,
+    "Name": "Caesars"
+  },
+  {
+    "Id": 568,
+    "Name": "Cake"
+  },
+  {
+    "Id": 90,
+    "Name": "Cannibal Corpse"
+  },
+  {
+    "Id": 777,
+    "Name": "Capital Cities"
+  },
+  {
+    "Id": 91,
+    "Name": "Carl Douglas"
+  },
+  {
+    "Id": 619,
+    "Name": "Carly Rae Jepsen"
+  },
+  {
+    "Id": 92,
+    "Name": "Carrie Underwood"
+  },
+  {
+    "Id": 93,
+    "Name": "Cars"
+  },
+  {
+    "Id": 632,
+    "Name": "Catfish And The Bottlemen"
+  },
+  {
+    "Id": 787,
+    "Name": "Chainsmokers ft. Halsey"
+  },
+  {
+    "Id": 870,
+    "Name": "Charlie Puth"
+  },
+  {
+    "Id": 94,
+    "Name": "Cheap Trick"
+  },
+  {
+    "Id": 633,
+    "Name": "Chely Wright"
+  },
+  {
+    "Id": 95,
+    "Name": "Chemical Brothers"
+  },
+  {
+    "Id": 634,
+    "Name": "Chevelle"
+  },
+  {
+    "Id": 96,
+    "Name": "Chevelles"
+  },
+  {
+    "Id": 97,
+    "Name": "Chicago"
+  },
+  {
+    "Id": 98,
+    "Name": "Children of Bodom"
+  },
+  {
+    "Id": 99,
+    "Name": "Chiodos"
+  },
+  {
+    "Id": 860,
+    "Name": "Chuck Berry"
+  },
+  {
+    "Id": 635,
+    "Name": "Chumbawamba"
+  },
+  {
+    "Id": 636,
+    "Name": "Cinderella"
+  },
+  {
+    "Id": 100,
+    "Name": "Clash"
+  },
+  {
+    "Id": 637,
+    "Name": "Cobra Starship (ft. Sabi)"
+  },
+  {
+    "Id": 101,
+    "Name": "Cocktail Slippers"
+  },
+  {
+    "Id": 102,
+    "Name": "Coheed and Cambria"
+  },
+  {
+    "Id": 638,
+    "Name": "Cold War Kids"
+  },
+  {
+    "Id": 588,
+    "Name": "Coldplay"
+  },
+  {
+    "Id": 620,
+    "Name": "Collective Soul"
+  },
+  {
+    "Id": 886,
+    "Name": "Commodores"
+  },
+  {
+    "Id": 103,
+    "Name": "Coral"
+  },
+  {
+    "Id": 104,
+    "Name": "Count Zero"
+  },
+  {
+    "Id": 105,
+    "Name": "Counting Crows"
+  },
+  {
+    "Id": 640,
+    "Name": "Cracker"
+  },
+  {
+    "Id": 106,
+    "Name": "Cranberries"
+  },
+  {
+    "Id": 107,
+    "Name": "Crash Kings"
+  },
+  {
+    "Id": 822,
+    "Name": "Creaturos"
+  },
+  {
+    "Id": 108,
+    "Name": "Creedence Clearwater Revival"
+  },
+  {
+    "Id": 109,
+    "Name": "Crooked X"
+  },
+  {
+    "Id": 110,
+    "Name": "Cross Canadian Ragweed"
+  },
+  {
+    "Id": 641,
+    "Name": "Crossfade"
+  },
+  {
+    "Id": 111,
+    "Name": "Crown of Thorns"
+  },
+  {
+    "Id": 112,
+    "Name": "Cult"
+  },
+  {
+    "Id": 642,
+    "Name": "Culture Club"
+  },
+  {
+    "Id": 113,
+    "Name": "Cure"
+  },
+  {
+    "Id": 643,
+    "Name": "Cutting Crew"
+  },
+  {
+    "Id": 790,
+    "Name": "Cyndi Lauper"
+  },
+  {
+    "Id": 644,
+    "Name": "Daft Punk ft. Pharrell Williams"
+  },
+  {
+    "Id": 114,
+    "Name": "Damned"
+  },
+  {
+    "Id": 115,
+    "Name": "Damone"
+  },
+  {
+    "Id": 866,
+    "Name": "Dance for the Dying"
+  },
+  {
+    "Id": 645,
+    "Name": "Darius Rucker"
+  },
+  {
+    "Id": 574,
+    "Name": "Dark Wheels"
+  },
+  {
+    "Id": 116,
+    "Name": "Darkest of the Hillside Thickets"
+  },
+  {
+    "Id": 646,
+    "Name": "Darkness"
+  },
+  {
+    "Id": 647,
+    "Name": "Darryl Worley"
+  },
+  {
+    "Id": 117,
+    "Name": "Dashboard Confessional"
+  },
+  {
+    "Id": 648,
+    "Name": "Daughtry"
+  },
+  {
+    "Id": 649,
+    "Name": "Dave Matthews Band"
+  },
+  {
+    "Id": 118,
+    "Name": "David Bowie"
+  },
+  {
+    "Id": 5,
+    "Name": "Day to Remember"
+  },
+  {
+    "Id": 119,
+    "Name": "dc Talk"
+  },
+  {
+    "Id": 120,
+    "Name": "Dead Kennedys"
+  },
+  {
+    "Id": 650,
+    "Name": "Dead Sara"
+  },
+  {
+    "Id": 121,
+    "Name": "Dead Weather"
+  },
+  {
+    "Id": 122,
+    "Name": "Dealership"
+  },
+  {
+    "Id": 123,
+    "Name": "Dear and the Headlights"
+  },
+  {
+    "Id": 651,
+    "Name": "Death Cab For Cutie"
+  },
+  {
+    "Id": 589,
+    "Name": "Death From Above 1979"
+  },
+  {
+    "Id": 124,
+    "Name": "Death of the Cool"
+  },
+  {
+    "Id": 125,
+    "Name": "Decemberists"
+  },
+  {
+    "Id": 652,
+    "Name": "Deep Blue Something"
+  },
+  {
+    "Id": 126,
+    "Name": "Deep Purple"
+  },
+  {
+    "Id": 127,
+    "Name": "Def Leppard"
+  },
+  {
+    "Id": 128,
+    "Name": "Deftones"
+  },
+  {
+    "Id": 892,
+    "Name": "Del Amitri"
+  },
+  {
+    "Id": 871,
+    "Name": "Demi Lovato"
+  },
+  {
+    "Id": 653,
+    "Name": "Depeche Mode"
+  },
+  {
+    "Id": 488,
+    "Name": "Devil Wears Prada"
+  },
+  {
+    "Id": 129,
+    "Name": "DevilDriver"
+  },
+  {
+    "Id": 130,
+    "Name": "Devo"
+  },
+  {
+    "Id": 874,
+    "Name": "Dexys Midnight Runners"
+  },
+  {
+    "Id": 131,
+    "Name": "Die Toten Hosen"
+  },
+  {
+    "Id": 132,
+    "Name": "Dierks Bentley"
+  },
+  {
+    "Id": 133,
+    "Name": "Dinosaur Jr."
+  },
+  {
+    "Id": 134,
+    "Name": "Dio"
+  },
+  {
+    "Id": 135,
+    "Name": "Dire Straits"
+  },
+  {
+    "Id": 136,
+    "Name": "Distillers"
+  },
+  {
+    "Id": 137,
+    "Name": "Disturbed"
+  },
+  {
+    "Id": 138,
+    "Name": "Dixie Chicks"
+  },
+  {
+    "Id": 590,
+    "Name": "DnA's Evolution"
+  },
+  {
+    "Id": 654,
+    "Name": "DNCE"
+  },
+  {
+    "Id": 655,
+    "Name": "Don McLean"
+  },
+  {
+    "Id": 139,
+    "Name": "Donnas"
+  },
+  {
+    "Id": 140,
+    "Name": "Doobie Brothers"
+  },
+  {
+    "Id": 141,
+    "Name": "Doors"
+  },
+  {
+    "Id": 142,
+    "Name": "Dover"
+  },
+  {
+    "Id": 656,
+    "Name": "DragonForce"
+  },
+  {
+    "Id": 143,
+    "Name": "Dream Theater"
+  },
+  {
+    "Id": 144,
+    "Name": "Drive-By Truckers"
+  },
+  {
+    "Id": 145,
+    "Name": "Dropkick Murphys"
+  },
+  {
+    "Id": 556,
+    "Name": "Duck & Cover"
+  },
+  {
+    "Id": 146,
+    "Name": "Duran Duran"
+  },
+  {
+    "Id": 823,
+    "Name": "Dutch ReBelle"
+  },
+  {
+    "Id": 657,
+    "Name": "Dwight Yoakam"
+  },
+  {
+    "Id": 778,
+    "Name": "Eagle-Eye Cherry"
+  },
+  {
+    "Id": 147,
+    "Name": "Eagles of Death Metal"
+  },
+  {
+    "Id": 148,
+    "Name": "Earth, Wind & Fire"
+  },
+  {
+    "Id": 149,
+    "Name": "Echo & The Bunnymen"
+  },
+  {
+    "Id": 764,
+    "Name": "Ed Sheeran"
+  },
+  {
+    "Id": 539,
+    "Name": "Eddie Japan"
+  },
+  {
+    "Id": 658,
+    "Name": "Eddie Money"
+  },
+  {
+    "Id": 659,
+    "Name": "Edgar Winter Group"
+  },
+  {
+    "Id": 150,
+    "Name": "EELS"
+  },
+  {
+    "Id": 151,
+    "Name": "Electric Six"
+  },
+  {
+    "Id": 660,
+    "Name": "Elle King"
+  },
+  {
+    "Id": 661,
+    "Name": "Ellie Goulding"
+  },
+  {
+    "Id": 152,
+    "Name": "Elton John"
+  },
+  {
+    "Id": 153,
+    "Name": "Elvis Costello"
+  },
+  {
+    "Id": 570,
+    "Name": "Elvis Presley"
+  },
+  {
+    "Id": 662,
+    "Name": "EMF"
+  },
+  {
+    "Id": 154,
+    "Name": "Endeverafter"
+  },
+  {
+    "Id": 663,
+    "Name": "Erasure"
+  },
+  {
+    "Id": 155,
+    "Name": "Eric Cartman"
+  },
+  {
+    "Id": 156,
+    "Name": "Eric Church"
+  },
+  {
+    "Id": 157,
+    "Name": "Escape the Fate"
+  },
+  {
+    "Id": 158,
+    "Name": "Europe"
+  },
+  {
+    "Id": 159,
+    "Name": "Evanescence"
+  },
+  {
+    "Id": 160,
+    "Name": "Eve 6"
+  },
+  {
+    "Id": 664,
+    "Name": "Everclear"
+  },
+  {
+    "Id": 161,
+    "Name": "Everlife"
+  },
+  {
+    "Id": 162,
+    "Name": "Evile"
+  },
+  {
+    "Id": 665,
+    "Name": "Extreme"
+  },
+  {
+    "Id": 163,
+    "Name": "Faith No More"
+  },
+  {
+    "Id": 164,
+    "Name": "Fall Out Boy"
+  },
+  {
+    "Id": 165,
+    "Name": "Family Force 5"
+  },
+  {
+    "Id": 591,
+    "Name": "Father Octopus"
+  },
+  {
+    "Id": 166,
+    "Name": "Filter"
+  },
+  {
+    "Id": 791,
+    "Name": "Fine Young Cannibals"
+  },
+  {
+    "Id": 167,
+    "Name": "Finley"
+  },
+  {
+    "Id": 785,
+    "Name": "Fitz and the Tantrums"
+  },
+  {
+    "Id": 666,
+    "Name": "Five Finger Death Punch"
+  },
+  {
+    "Id": 168,
+    "Name": "Flaming Lips"
+  },
+  {
+    "Id": 169,
+    "Name": "Fleetwood Mac"
+  },
+  {
+    "Id": 170,
+    "Name": "Flobots"
+  },
+  {
+    "Id": 667,
+    "Name": "Flock of Seagulls"
+  },
+  {
+    "Id": 668,
+    "Name": "Florence + the Machine"
+  },
+  {
+    "Id": 171,
+    "Name": "Flyleaf"
+  },
+  {
+    "Id": 669,
+    "Name": "Flys"
+  },
+  {
+    "Id": 861,
+    "Name": "Foghat"
+  },
+  {
+    "Id": 172,
+    "Name": "Foo Fighters"
+  },
+  {
+    "Id": 173,
+    "Name": "Foreigner"
+  },
+  {
+    "Id": 621,
+    "Name": "Foster the People"
+  },
+  {
+    "Id": 671,
+    "Name": "Frank Turner"
+  },
+  {
+    "Id": 670,
+    "Name": "Frankie Goes to Hollywood"
+  },
+  {
+    "Id": 174,
+    "Name": "Franz Ferdinand"
+  },
+  {
+    "Id": 175,
+    "Name": "Fratellis"
+  },
+  {
+    "Id": 176,
+    "Name": "Free"
+  },
+  {
+    "Id": 177,
+    "Name": "Freezepop"
+  },
+  {
+    "Id": 672,
+    "Name": "Fuel"
+  },
+  {
+    "Id": 812,
+    "Name": "Fun."
+  },
+  {
+    "Id": 622,
+    "Name": "Fun. ft. Janelle Monáe"
+  },
+  {
+    "Id": 178,
+    "Name": "Futureheads"
+  },
+  {
+    "Id": 179,
+    "Name": "Garbage"
+  },
+  {
+    "Id": 673,
+    "Name": "Gary Allan"
+  },
+  {
+    "Id": 538,
+    "Name": "Gary Clark Jr."
+  },
+  {
+    "Id": 888,
+    "Name": "Gavin DeGraw"
+  },
+  {
+    "Id": 674,
+    "Name": "Generation X"
+  },
+  {
+    "Id": 675,
+    "Name": "George Strait"
+  },
+  {
+    "Id": 180,
+    "Name": "George Thorogood & the Destroyers"
+  },
+  {
+    "Id": 842,
+    "Name": "Ghost"
+  },
+  {
+    "Id": 181,
+    "Name": "Ghost Hounds"
+  },
+  {
+    "Id": 592,
+    "Name": "Giant Target"
+  },
+  {
+    "Id": 550,
+    "Name": "Gin Blossoms"
+  },
+  {
+    "Id": 182,
+    "Name": "GLaDOS"
+  },
+  {
+    "Id": 183,
+    "Name": "Glasvegas"
+  },
+  {
+    "Id": 184,
+    "Name": "Go-Go's"
+  },
+  {
+    "Id": 185,
+    "Name": "God Forbid"
+  },
+  {
+    "Id": 797,
+    "Name": "Goddamn Draculas"
+  },
+  {
+    "Id": 186,
+    "Name": "Godsmack"
+  },
+  {
+    "Id": 187,
+    "Name": "Golden Earring"
+  },
+  {
+    "Id": 593,
+    "Name": "Goo Goo Dolls"
+  },
+  {
+    "Id": 188,
+    "Name": "Good Charlotte"
+  },
+  {
+    "Id": 189,
+    "Name": "Gorillaz"
+  },
+  {
+    "Id": 883,
+    "Name": "Gracious Few"
+  },
+  {
+    "Id": 676,
+    "Name": "Grand Funk Railroad"
+  },
+  {
+    "Id": 190,
+    "Name": "Grateful Dead"
+  },
+  {
+    "Id": 867,
+    "Name": "Graveyard BBQ"
+  },
+  {
+    "Id": 623,
+    "Name": "Great White"
+  },
+  {
+    "Id": 191,
+    "Name": "Green Day"
+  },
+  {
+    "Id": 571,
+    "Name": "Grouplove"
+  },
+  {
+    "Id": 192,
+    "Name": "Guess Who"
+  },
+  {
+    "Id": 193,
+    "Name": "Guns N' Roses"
+  },
+  {
+    "Id": 677,
+    "Name": "Gym Class Heroes (ft. Adam Levine)"
+  },
+  {
+    "Id": 194,
+    "Name": "H-Blockx"
+  },
+  {
+    "Id": 554,
+    "Name": "Halestorm"
+  },
+  {
+    "Id": 678,
+    "Name": "Hall & Oates"
+  },
+  {
+    "Id": 196,
+    "Name": "Harvey Danger"
+  },
+  {
+    "Id": 197,
+    "Name": "Haunted"
+  },
+  {
+    "Id": 198,
+    "Name": "Hautewerk"
+  },
+  {
+    "Id": 199,
+    "Name": "Hawk Nelson"
+  },
+  {
+    "Id": 200,
+    "Name": "Hawkwind"
+  },
+  {
+    "Id": 555,
+    "Name": "Heart"
+  },
+  {
+    "Id": 552,
+    "Name": "Heaven's Basement"
+  },
+  {
+    "Id": 201,
+    "Name": "HIM"
+  },
+  {
+    "Id": 202,
+    "Name": "Hinder"
+  },
+  {
+    "Id": 203,
+    "Name": "Hives"
+  },
+  {
+    "Id": 204,
+    "Name": "Hole"
+  },
+  {
+    "Id": 679,
+    "Name": "Hollies"
+  },
+  {
+    "Id": 205,
+    "Name": "Hollywood Undead"
+  },
+  {
+    "Id": 206,
+    "Name": "Honest Bob and the Factory-to-Dealer Incentives"
+  },
+  {
+    "Id": 680,
+    "Name": "Hoobastank"
+  },
+  {
+    "Id": 789,
+    "Name": "Hootie & The Blowfish"
+  },
+  {
+    "Id": 681,
+    "Name": "Hot Chelle Rae"
+  },
+  {
+    "Id": 207,
+    "Name": "Hot Hot Heat"
+  },
+  {
+    "Id": 882,
+    "Name": "HourCast"
+  },
+  {
+    "Id": 682,
+    "Name": "Hozier"
+  },
+  {
+    "Id": 208,
+    "Name": "Huey Lewis and the News"
+  },
+  {
+    "Id": 683,
+    "Name": "Human League"
+  },
+  {
+    "Id": 835,
+    "Name": "Hunna"
+  },
+  {
+    "Id": 878,
+    "Name": "HUNNY"
+  },
+  {
+    "Id": 209,
+    "Name": "Hypernova"
+  },
+  {
+    "Id": 210,
+    "Name": "I Mother Earth"
+  },
+  {
+    "Id": 211,
+    "Name": "Ida Maria"
+  },
+  {
+    "Id": 212,
+    "Name": "Iggy Pop"
+  },
+  {
+    "Id": 553,
+    "Name": "Imagine Dragons"
+  },
+  {
+    "Id": 879,
+    "Name": "In The Valley Below"
+  },
+  {
+    "Id": 213,
+    "Name": "In This Moment"
+  },
+  {
+    "Id": 214,
+    "Name": "Incubus"
+  },
+  {
+    "Id": 215,
+    "Name": "Inhabited"
+  },
+  {
+    "Id": 216,
+    "Name": "Interpol"
+  },
+  {
+    "Id": 217,
+    "Name": "INXS"
+  },
+  {
+    "Id": 852,
+    "Name": "Iron Butterfly"
+  },
+  {
+    "Id": 218,
+    "Name": "Iron Maiden"
+  },
+  {
+    "Id": 832,
+    "Name": "Isley Brothers"
+  },
+  {
+    "Id": 219,
+    "Name": "J. Geils Band"
+  },
+  {
+    "Id": 557,
+    "Name": "Jack White"
+  },
+  {
+    "Id": 220,
+    "Name": "Jackson 5"
+  },
+  {
+    "Id": 221,
+    "Name": "Jam"
+  },
+  {
+    "Id": 222,
+    "Name": "James Brown"
+  },
+  {
+    "Id": 223,
+    "Name": "James Gang"
+  },
+  {
+    "Id": 224,
+    "Name": "Jamey Johnson"
+  },
+  {
+    "Id": 225,
+    "Name": "Jane's Addiction"
+  },
+  {
+    "Id": 226,
+    "Name": "Janis Joplin"
+  },
+  {
+    "Id": 684,
+    "Name": "Janis Joplin & the Full Tilt Boogie Band"
+  },
+  {
+    "Id": 227,
+    "Name": "Janitors"
+  },
+  {
+    "Id": 228,
+    "Name": "Jason Aldean"
+  },
+  {
+    "Id": 815,
+    "Name": "Jason Derulo"
+  },
+  {
+    "Id": 773,
+    "Name": "Jason Mraz"
+  },
+  {
+    "Id": 566,
+    "Name": "Jeff Allen ft. Noelle LeBlanc and Naoko Takamoto"
+  },
+  {
+    "Id": 229,
+    "Name": "Jefferson Airplane"
+  },
+  {
+    "Id": 685,
+    "Name": "Jefferson Starship"
+  },
+  {
+    "Id": 900,
+    "Name": "Jesus Jones"
+  },
+  {
+    "Id": 230,
+    "Name": "Jet"
+  },
+  {
+    "Id": 231,
+    "Name": "Jethro Tull"
+  },
+  {
+    "Id": 232,
+    "Name": "Jimi Hendrix"
+  },
+  {
+    "Id": 233,
+    "Name": "Jimi Hendrix Experience"
+  },
+  {
+    "Id": 234,
+    "Name": "Jimmy Buffett"
+  },
+  {
+    "Id": 235,
+    "Name": "Jimmy Eat World"
+  },
+  {
+    "Id": 236,
+    "Name": "Joan Jett"
+  },
+  {
+    "Id": 237,
+    "Name": "Joan Jett and the Blackhearts"
+  },
+  {
+    "Id": 238,
+    "Name": "Job For A Cowboy"
+  },
+  {
+    "Id": 894,
+    "Name": "Joe Jackson"
+  },
+  {
+    "Id": 239,
+    "Name": "Joe Satriani"
+  },
+  {
+    "Id": 240,
+    "Name": "John & Yoko, The Plastic Ono Band"
+  },
+  {
+    "Id": 241,
+    "Name": "John Lennon"
+  },
+  {
+    "Id": 547,
+    "Name": "Johnny Blazes and The Pretty Boys"
+  },
+  {
+    "Id": 242,
+    "Name": "Johnny Cash"
+  },
+  {
+    "Id": 884,
+    "Name": "Johnny Cooper"
+  },
+  {
+    "Id": 243,
+    "Name": "Jonathan Coulton"
+  },
+  {
+    "Id": 244,
+    "Name": "Josh Turner"
+  },
+  {
+    "Id": 245,
+    "Name": "Journey"
+  },
+  {
+    "Id": 686,
+    "Name": "Joy Division"
+  },
+  {
+    "Id": 246,
+    "Name": "Juanes"
+  },
+  {
+    "Id": 247,
+    "Name": "Judas Priest"
+  },
+  {
+    "Id": 248,
+    "Name": "Juli"
+  },
+  {
+    "Id": 249,
+    "Name": "Juliana Hatfield"
+  },
+  {
+    "Id": 824,
+    "Name": "Julie Rhodes"
+  },
+  {
+    "Id": 250,
+    "Name": "Just Kait"
+  },
+  {
+    "Id": 687,
+    "Name": "Justin Bieber"
+  },
+  {
+    "Id": 688,
+    "Name": "Justin Moore"
+  },
+  {
+    "Id": 251,
+    "Name": "Kaiser Chiefs"
+  },
+  {
+    "Id": 830,
+    "Name": "Kaleo"
+  },
+  {
+    "Id": 252,
+    "Name": "Kansas"
+  },
+  {
+    "Id": 253,
+    "Name": "Kasabian"
+  },
+  {
+    "Id": 254,
+    "Name": "Katrina and the Waves"
+  },
+  {
+    "Id": 255,
+    "Name": "Keith Urban"
+  },
+  {
+    "Id": 256,
+    "Name": "Kelly Clarkson"
+  },
+  {
+    "Id": 257,
+    "Name": "Kenny Chesney"
+  },
+  {
+    "Id": 689,
+    "Name": "Kenny Loggins"
+  },
+  {
+    "Id": 258,
+    "Name": "Kenny Rogers"
+  },
+  {
+    "Id": 259,
+    "Name": "Killers"
+  },
+  {
+    "Id": 260,
+    "Name": "Killswitch Engage"
+  },
+  {
+    "Id": 261,
+    "Name": "Kings Of Leon"
+  },
+  {
+    "Id": 262,
+    "Name": "KISS"
+  },
+  {
+    "Id": 263,
+    "Name": "KMFDM"
+  },
+  {
+    "Id": 264,
+    "Name": "Knack"
+  },
+  {
+    "Id": 265,
+    "Name": "Konks"
+  },
+  {
+    "Id": 266,
+    "Name": "Kooks"
+  },
+  {
+    "Id": 624,
+    "Name": "Kool & the Gang"
+  },
+  {
+    "Id": 267,
+    "Name": "KoRn"
+  },
+  {
+    "Id": 268,
+    "Name": "KSM"
+  },
+  {
+    "Id": 269,
+    "Name": "KT Tunstall"
+  },
+  {
+    "Id": 270,
+    "Name": "Kula Shaker"
+  },
+  {
+    "Id": 271,
+    "Name": "Kutless"
+  },
+  {
+    "Id": 272,
+    "Name": "L7"
+  },
+  {
+    "Id": 273,
+    "Name": "La Roux"
+  },
+  {
+    "Id": 274,
+    "Name": "Lacuna Coil"
+  },
+  {
+    "Id": 275,
+    "Name": "Lady Antebellum"
+  },
+  {
+    "Id": 276,
+    "Name": "Lady Gaga"
+  },
+  {
+    "Id": 277,
+    "Name": "Lamb of God"
+  },
+  {
+    "Id": 278,
+    "Name": "Laura Bell Bundy"
+  },
+  {
+    "Id": 853,
+    "Name": "Legitimate Front"
+  },
+  {
+    "Id": 898,
+    "Name": "LEN"
+  },
+  {
+    "Id": 279,
+    "Name": "Len Price 3"
+  },
+  {
+    "Id": 280,
+    "Name": "Lenny Kravitz"
+  },
+  {
+    "Id": 281,
+    "Name": "Les Wampas"
+  },
+  {
+    "Id": 282,
+    "Name": "Lesley Roy"
+  },
+  {
+    "Id": 283,
+    "Name": "Libyans"
+  },
+  {
+    "Id": 549,
+    "Name": "Lightning Bolt"
+  },
+  {
+    "Id": 284,
+    "Name": "Lights Resolve"
+  },
+  {
+    "Id": 285,
+    "Name": "Limp Bizkit"
+  },
+  {
+    "Id": 690,
+    "Name": "Linea 77"
+  },
+  {
+    "Id": 286,
+    "Name": "Linkin Park"
+  },
+  {
+    "Id": 287,
+    "Name": "Lit"
+  },
+  {
+    "Id": 288,
+    "Name": "Litfiba"
+  },
+  {
+    "Id": 560,
+    "Name": "Little Big Town"
+  },
+  {
+    "Id": 289,
+    "Name": "Little Fish"
+  },
+  {
+    "Id": 825,
+    "Name": "Littlefoot"
+  },
+  {
+    "Id": 540,
+    "Name": "Live"
+  },
+  {
+    "Id": 625,
+    "Name": "Living Colour"
+  },
+  {
+    "Id": 290,
+    "Name": "Liz Phair"
+  },
+  {
+    "Id": 810,
+    "Name": "LMFAO ft. Lauren Bennett & GoonRock"
+  },
+  {
+    "Id": 291,
+    "Name": "Locksley"
+  },
+  {
+    "Id": 794,
+    "Name": "Lorde"
+  },
+  {
+    "Id": 691,
+    "Name": "Lordi"
+  },
+  {
+    "Id": 292,
+    "Name": "Lostprophets"
+  },
+  {
+    "Id": 692,
+    "Name": "Loverboy"
+  },
+  {
+    "Id": 293,
+    "Name": "Lucinda Williams"
+  },
+  {
+    "Id": 572,
+    "Name": "Lucius"
+  },
+  {
+    "Id": 693,
+    "Name": "Luke Bryan"
+  },
+  {
+    "Id": 294,
+    "Name": "Luscious Jackson"
+  },
+  {
+    "Id": 295,
+    "Name": "Lush"
+  },
+  {
+    "Id": 296,
+    "Name": "Lynyrd Skynyrd"
+  },
+  {
+    "Id": 297,
+    "Name": "Machine Head"
+  },
+  {
+    "Id": 818,
+    "Name": "Macklemore & Ryan Lewis ft. Ray Dalton"
+  },
+  {
+    "Id": 694,
+    "Name": "MAGIC!"
+  },
+  {
+    "Id": 298,
+    "Name": "Main Drag"
+  },
+  {
+    "Id": 299,
+    "Name": "Maná"
+  },
+  {
+    "Id": 695,
+    "Name": "Marcy Playground"
+  },
+  {
+    "Id": 300,
+    "Name": "Marilyn Manson"
+  },
+  {
+    "Id": 573,
+    "Name": "Mark Ronson ft. Bruno Mars"
+  },
+  {
+    "Id": 301,
+    "Name": "Maroon 5"
+  },
+  {
+    "Id": 626,
+    "Name": "Maroon 5 ft. Christina Aguilera"
+  },
+  {
+    "Id": 302,
+    "Name": "Martina McBride"
+  },
+  {
+    "Id": 696,
+    "Name": "masaya matsuura"
+  },
+  {
+    "Id": 303,
+    "Name": "Mastodon"
+  },
+  {
+    "Id": 697,
+    "Name": "Matchbox Twenty"
+  },
+  {
+    "Id": 304,
+    "Name": "Material"
+  },
+  {
+    "Id": 305,
+    "Name": "Maxïmo Park"
+  },
+  {
+    "Id": 306,
+    "Name": "MC Frontalot"
+  },
+  {
+    "Id": 307,
+    "Name": "MC Frontalot feat. Brad Sucks"
+  },
+  {
+    "Id": 698,
+    "Name": "Meat Loaf"
+  },
+  {
+    "Id": 308,
+    "Name": "Megadeth"
+  },
+  {
+    "Id": 309,
+    "Name": "Megasus"
+  },
+  {
+    "Id": 795,
+    "Name": "Meghan Trainor"
+  },
+  {
+    "Id": 594,
+    "Name": "Men at Work"
+  },
+  {
+    "Id": 699,
+    "Name": "Merle Haggard"
+  },
+  {
+    "Id": 310,
+    "Name": "Metallica"
+  },
+  {
+    "Id": 311,
+    "Name": "Metric"
+  },
+  {
+    "Id": 833,
+    "Name": "MGMT"
+  },
+  {
+    "Id": 826,
+    "Name": "Michael Christmas"
+  },
+  {
+    "Id": 890,
+    "Name": "Michelle Branch"
+  },
+  {
+    "Id": 700,
+    "Name": "Midnight Oil"
+  },
+  {
+    "Id": 312,
+    "Name": "Mighty Mighty Bosstones"
+  },
+  {
+    "Id": 313,
+    "Name": "Miley Cyrus"
+  },
+  {
+    "Id": 897,
+    "Name": "Milky Chance"
+  },
+  {
+    "Id": 314,
+    "Name": "Ministry"
+  },
+  {
+    "Id": 315,
+    "Name": "Miranda Cosgrove"
+  },
+  {
+    "Id": 316,
+    "Name": "Miranda Lambert"
+  },
+  {
+    "Id": 317,
+    "Name": "Mission of Burma"
+  },
+  {
+    "Id": 701,
+    "Name": "Modern English"
+  },
+  {
+    "Id": 318,
+    "Name": "Modest Mouse"
+  },
+  {
+    "Id": 319,
+    "Name": "Molly Hatchet"
+  },
+  {
+    "Id": 320,
+    "Name": "Monkees"
+  },
+  {
+    "Id": 831,
+    "Name": "Montell Jordan"
+  },
+  {
+    "Id": 321,
+    "Name": "Montgomery Gentry"
+  },
+  {
+    "Id": 322,
+    "Name": "Morningwood"
+  },
+  {
+    "Id": 323,
+    "Name": "Morrissey"
+  },
+  {
+    "Id": 324,
+    "Name": "Mother Hips"
+  },
+  {
+    "Id": 325,
+    "Name": "Mötley Crüe"
+  },
+  {
+    "Id": 326,
+    "Name": "Motörhead"
+  },
+  {
+    "Id": 327,
+    "Name": "Mountain"
+  },
+  {
+    "Id": 702,
+    "Name": "Mr. Big"
+  },
+  {
+    "Id": 703,
+    "Name": "Mudvayne"
+  },
+  {
+    "Id": 328,
+    "Name": "Muffs"
+  },
+  {
+    "Id": 578,
+    "Name": "Mumford & Sons"
+  },
+  {
+    "Id": 329,
+    "Name": "Muse"
+  },
+  {
+    "Id": 330,
+    "Name": "Mute Math"
+  },
+  {
+    "Id": 331,
+    "Name": "My Chemical Romance"
+  },
+  {
+    "Id": 704,
+    "Name": "My Morning Jacket"
+  },
+  {
+    "Id": 332,
+    "Name": "Myriad"
+  },
+  {
+    "Id": 333,
+    "Name": "Naked Brothers Band"
+  },
+  {
+    "Id": 705,
+    "Name": "Naked Eyes"
+  },
+  {
+    "Id": 876,
+    "Name": "Natalie Imbruglia"
+  },
+  {
+    "Id": 891,
+    "Name": "Natasha Bedingfield"
+  },
+  {
+    "Id": 334,
+    "Name": "Nazareth"
+  },
+  {
+    "Id": 780,
+    "Name": "Neighbourhood"
+  },
+  {
+    "Id": 335,
+    "Name": "Neil Peart"
+  },
+  {
+    "Id": 336,
+    "Name": "Neko Case"
+  },
+  {
+    "Id": 799,
+    "Name": "Nemes"
+  },
+  {
+    "Id": 337,
+    "Name": "Neon Trees"
+  },
+  {
+    "Id": 338,
+    "Name": "New Order"
+  },
+  {
+    "Id": 339,
+    "Name": "New Pornographers"
+  },
+  {
+    "Id": 803,
+    "Name": "Newfane"
+  },
+  {
+    "Id": 340,
+    "Name": "Nickelback"
+  },
+  {
+    "Id": 774,
+    "Name": "Nicki Minaj"
+  },
+  {
+    "Id": 341,
+    "Name": "Night Ranger"
+  },
+  {
+    "Id": 880,
+    "Name": "Nightmare Air"
+  },
+  {
+    "Id": 706,
+    "Name": "Nightwish"
+  },
+  {
+    "Id": 342,
+    "Name": "Nikko"
+  },
+  {
+    "Id": 887,
+    "Name": "Nine Days"
+  },
+  {
+    "Id": 343,
+    "Name": "Nine Inch Nails"
+  },
+  {
+    "Id": 344,
+    "Name": "Nirvana"
+  },
+  {
+    "Id": 345,
+    "Name": "No Doubt"
+  },
+  {
+    "Id": 881,
+    "Name": "No Small Children"
+  },
+  {
+    "Id": 346,
+    "Name": "Norman Greenbaum"
+  },
+  {
+    "Id": 347,
+    "Name": "Oasis"
+  },
+  {
+    "Id": 710,
+    "Name": "Of Mice & Men"
+  },
+  {
+    "Id": 781,
+    "Name": "Of Monsters And Men"
+  },
+  {
+    "Id": 348,
+    "Name": "Offspring"
+  },
+  {
+    "Id": 711,
+    "Name": "Oh Honey"
+  },
+  {
+    "Id": 712,
+    "Name": "Ohio Players"
+  },
+  {
+    "Id": 713,
+    "Name": "Oingo Boingo"
+  },
+  {
+    "Id": 349,
+    "Name": "OK Go"
+  },
+  {
+    "Id": 350,
+    "Name": "Old 97's"
+  },
+  {
+    "Id": 811,
+    "Name": "OMI"
+  },
+  {
+    "Id": 714,
+    "Name": "One Direction"
+  },
+  {
+    "Id": 351,
+    "Name": "One Night Only"
+  },
+  {
+    "Id": 352,
+    "Name": "OneRepublic"
+  },
+  {
+    "Id": 715,
+    "Name": "Opeth"
+  },
+  {
+    "Id": 353,
+    "Name": "Opiate for the Masses"
+  },
+  {
+    "Id": 354,
+    "Name": "Orianthi"
+  },
+  {
+    "Id": 716,
+    "Name": "Orleans"
+  },
+  {
+    "Id": 355,
+    "Name": "Otis Redding"
+  },
+  {
+    "Id": 579,
+    "Name": "Outfield"
+  },
+  {
+    "Id": 717,
+    "Name": "Outkast"
+  },
+  {
+    "Id": 356,
+    "Name": "Outlaws"
+  },
+  {
+    "Id": 718,
+    "Name": "Owl City"
+  },
+  {
+    "Id": 357,
+    "Name": "Ozzy Osbourne"
+  },
+  {
+    "Id": 358,
+    "Name": "P!nk"
+  },
+  {
+    "Id": 359,
+    "Name": "P.O.D."
+  },
+  {
+    "Id": 360,
+    "Name": "Panic at the Disco"
+  },
+  {
+    "Id": 361,
+    "Name": "Pantera"
+  },
+  {
+    "Id": 362,
+    "Name": "Papa Roach"
+  },
+  {
+    "Id": 363,
+    "Name": "Paramore"
+  },
+  {
+    "Id": 843,
+    "Name": "Parks"
+  },
+  {
+    "Id": 805,
+    "Name": "Parlour Bells"
+  },
+  {
+    "Id": 807,
+    "Name": "Party Bois"
+  },
+  {
+    "Id": 364,
+    "Name": "Pat Benatar"
+  },
+  {
+    "Id": 365,
+    "Name": "Paul and Storm"
+  },
+  {
+    "Id": 366,
+    "Name": "Paul McCartney"
+  },
+  {
+    "Id": 367,
+    "Name": "Paul McCartney & Wings"
+  },
+  {
+    "Id": 368,
+    "Name": "Pearl Jam"
+  },
+  {
+    "Id": 836,
+    "Name": "Permaband"
+  },
+  {
+    "Id": 719,
+    "Name": "Peter Cetera"
+  },
+  {
+    "Id": 720,
+    "Name": "Peter Frampton"
+  },
+  {
+    "Id": 804,
+    "Name": "Petty Morals"
+  },
+  {
+    "Id": 779,
+    "Name": "Pharrell Williams"
+  },
+  {
+    "Id": 369,
+    "Name": "Phish"
+  },
+  {
+    "Id": 370,
+    "Name": "Phoenix"
+  },
+  {
+    "Id": 371,
+    "Name": "Picture Me Broken"
+  },
+  {
+    "Id": 721,
+    "Name": "Pierce the Veil"
+  },
+  {
+    "Id": 372,
+    "Name": "Pixies"
+  },
+  {
+    "Id": 373,
+    "Name": "Plain White T's"
+  },
+  {
+    "Id": 374,
+    "Name": "Platero y Tú"
+  },
+  {
+    "Id": 375,
+    "Name": "Pleymo"
+  },
+  {
+    "Id": 722,
+    "Name": "Poison"
+  },
+  {
+    "Id": 376,
+    "Name": "Police"
+  },
+  {
+    "Id": 377,
+    "Name": "Poni Hoax"
+  },
+  {
+    "Id": 872,
+    "Name": "Portugal. The Man"
+  },
+  {
+    "Id": 378,
+    "Name": "Presidents of the United States of America"
+  },
+  {
+    "Id": 379,
+    "Name": "Pretenders"
+  },
+  {
+    "Id": 380,
+    "Name": "Pretty Girls Make Graves"
+  },
+  {
+    "Id": 595,
+    "Name": "Pretty Reckless"
+  },
+  {
+    "Id": 381,
+    "Name": "Primitives"
+  },
+  {
+    "Id": 382,
+    "Name": "Primus"
+  },
+  {
+    "Id": 383,
+    "Name": "Procol Harum"
+  },
+  {
+    "Id": 384,
+    "Name": "Prong"
+  },
+  {
+    "Id": 559,
+    "Name": "Protomen"
+  },
+  {
+    "Id": 385,
+    "Name": "Psychedelic Furs"
+  },
+  {
+    "Id": 723,
+    "Name": "Puddle of Mudd"
+  },
+  {
+    "Id": 386,
+    "Name": "Queen"
+  },
+  {
+    "Id": 387,
+    "Name": "Queens of the Stone Age"
+  },
+  {
+    "Id": 724,
+    "Name": "Queensrÿche"
+  },
+  {
+    "Id": 627,
+    "Name": "Quiet Riot"
+  },
+  {
+    "Id": 388,
+    "Name": "R.E.M."
+  },
+  {
+    "Id": 389,
+    "Name": "Raconteurs"
+  },
+  {
+    "Id": 390,
+    "Name": "Radiohead"
+  },
+  {
+    "Id": 391,
+    "Name": "Rage Against the Machine"
+  },
+  {
+    "Id": 816,
+    "Name": "Ram Jam"
+  },
+  {
+    "Id": 392,
+    "Name": "Rammstein"
+  },
+  {
+    "Id": 393,
+    "Name": "Ramones"
+  },
+  {
+    "Id": 394,
+    "Name": "Rancid"
+  },
+  {
+    "Id": 395,
+    "Name": "Rascal Flatts"
+  },
+  {
+    "Id": 396,
+    "Name": "Ratt"
+  },
+  {
+    "Id": 397,
+    "Name": "Raveonettes"
+  },
+  {
+    "Id": 398,
+    "Name": "Ray Parker Jr."
+  },
+  {
+    "Id": 399,
+    "Name": "Razorlight"
+  },
+  {
+    "Id": 400,
+    "Name": "Reba McEntire"
+  },
+  {
+    "Id": 802,
+    "Name": "Red Chord"
+  },
+  {
+    "Id": 401,
+    "Name": "Red Hot Chili Peppers"
+  },
+  {
+    "Id": 725,
+    "Name": "Relient K"
+  },
+  {
+    "Id": 402,
+    "Name": "REO Speedwagon"
+  },
+  {
+    "Id": 403,
+    "Name": "Replacements"
+  },
+  {
+    "Id": 404,
+    "Name": "Richard Thompson"
+  },
+  {
+    "Id": 596,
+    "Name": "Rick Astley"
+  },
+  {
+    "Id": 567,
+    "Name": "Rick Derringer"
+  },
+  {
+    "Id": 858,
+    "Name": "Rick James"
+  },
+  {
+    "Id": 628,
+    "Name": "Rick Springfield"
+  },
+  {
+    "Id": 405,
+    "Name": "Rilo Kiley"
+  },
+  {
+    "Id": 406,
+    "Name": "Rise Against"
+  },
+  {
+    "Id": 407,
+    "Name": "Riverboat Gamblers"
+  },
+  {
+    "Id": 408,
+    "Name": "Rob Zombie"
+  },
+  {
+    "Id": 726,
+    "Name": "Robert Palmer"
+  },
+  {
+    "Id": 768,
+    "Name": "Robin Thicke ft. Pharrell"
+  },
+  {
+    "Id": 409,
+    "Name": "Rolling Stones"
+  },
+  {
+    "Id": 727,
+    "Name": "Romantics"
+  },
+  {
+    "Id": 410,
+    "Name": "Roxette"
+  },
+  {
+    "Id": 411,
+    "Name": "Roy Orbison"
+  },
+  {
+    "Id": 728,
+    "Name": "Royal Blood"
+  },
+  {
+    "Id": 806,
+    "Name": "Ruby Rose Fox"
+  },
+  {
+    "Id": 729,
+    "Name": "Rufus (featuring Chaka Khan)"
+  },
+  {
+    "Id": 730,
+    "Name": "Run-DMC"
+  },
+  {
+    "Id": 412,
+    "Name": "Runaways"
+  },
+  {
+    "Id": 413,
+    "Name": "Rush"
+  },
+  {
+    "Id": 765,
+    "Name": "Saint Raymond"
+  },
+  {
+    "Id": 731,
+    "Name": "Sam Hunt"
+  },
+  {
+    "Id": 732,
+    "Name": "Santana"
+  },
+  {
+    "Id": 733,
+    "Name": "Santana (ft. Rob Thomas)"
+  },
+  {
+    "Id": 414,
+    "Name": "Sara Evans"
+  },
+  {
+    "Id": 896,
+    "Name": "Savage Garden"
+  },
+  {
+    "Id": 734,
+    "Name": "Save Ferris"
+  },
+  {
+    "Id": 576,
+    "Name": "Scandal"
+  },
+  {
+    "Id": 415,
+    "Name": "Scars on Broadway"
+  },
+  {
+    "Id": 563,
+    "Name": "Scorpions"
+  },
+  {
+    "Id": 416,
+    "Name": "Screaming Trees"
+  },
+  {
+    "Id": 735,
+    "Name": "Seasick Steve"
+  },
+  {
+    "Id": 889,
+    "Name": "Seether ft. Amy Lee"
+  },
+  {
+    "Id": 417,
+    "Name": "Semi Precious Weapons"
+  },
+  {
+    "Id": 782,
+    "Name": "Semisonic"
+  },
+  {
+    "Id": 418,
+    "Name": "Serj Tankian"
+  },
+  {
+    "Id": 895,
+    "Name": "Seven Mary Three"
+  },
+  {
+    "Id": 419,
+    "Name": "Shaimus"
+  },
+  {
+    "Id": 420,
+    "Name": "Shania Twain"
+  },
+  {
+    "Id": 736,
+    "Name": "Shawn Mendes"
+  },
+  {
+    "Id": 846,
+    "Name": "Shelters"
+  },
+  {
+    "Id": 737,
+    "Name": "Sheryl Crow"
+  },
+  {
+    "Id": 421,
+    "Name": "Shinedown"
+  },
+  {
+    "Id": 422,
+    "Name": "Shins"
+  },
+  {
+    "Id": 423,
+    "Name": "Shooter Jennings"
+  },
+  {
+    "Id": 783,
+    "Name": "Sia"
+  },
+  {
+    "Id": 796,
+    "Name": "Sia ft. Kendrick Lamar"
+  },
+  {
+    "Id": 788,
+    "Name": "Sia ft. Sean Paul"
+  },
+  {
+    "Id": 424,
+    "Name": "Silverchair"
+  },
+  {
+    "Id": 425,
+    "Name": "Silversun Pickups"
+  },
+  {
+    "Id": 426,
+    "Name": "Silvertide"
+  },
+  {
+    "Id": 427,
+    "Name": "Simon & Garfunkel"
+  },
+  {
+    "Id": 817,
+    "Name": "Simple Minds"
+  },
+  {
+    "Id": 428,
+    "Name": "Siouxsie and The Banshees"
+  },
+  {
+    "Id": 784,
+    "Name": "Sister Hazel"
+  },
+  {
+    "Id": 901,
+    "Name": "Sister Sledge"
+  },
+  {
+    "Id": 429,
+    "Name": "Sixx:A.M."
+  },
+  {
+    "Id": 873,
+    "Name": "Skid Row"
+  },
+  {
+    "Id": 430,
+    "Name": "Skillet"
+  },
+  {
+    "Id": 431,
+    "Name": "Skizoo"
+  },
+  {
+    "Id": 813,
+    "Name": "Skratch'N Snyf"
+  },
+  {
+    "Id": 432,
+    "Name": "Slayer"
+  },
+  {
+    "Id": 433,
+    "Name": "Sleater-Kinney"
+  },
+  {
+    "Id": 434,
+    "Name": "Slipknot"
+  },
+  {
+    "Id": 558,
+    "Name": "Slydigs"
+  },
+  {
+    "Id": 435,
+    "Name": "Smash Mouth"
+  },
+  {
+    "Id": 436,
+    "Name": "Smashing Pumpkins"
+  },
+  {
+    "Id": 437,
+    "Name": "Smithereens"
+  },
+  {
+    "Id": 438,
+    "Name": "Smiths"
+  },
+  {
+    "Id": 439,
+    "Name": "Snoop Dogg"
+  },
+  {
+    "Id": 440,
+    "Name": "Snow Patrol"
+  },
+  {
+    "Id": 441,
+    "Name": "Social Distortion"
+  },
+  {
+    "Id": 738,
+    "Name": "Soft Cell"
+  },
+  {
+    "Id": 442,
+    "Name": "Sonic Youth"
+  },
+  {
+    "Id": 548,
+    "Name": "Soul Remnants"
+  },
+  {
+    "Id": 443,
+    "Name": "Soundgarden"
+  },
+  {
+    "Id": 444,
+    "Name": "Sounds"
+  },
+  {
+    "Id": 445,
+    "Name": "Spacehog"
+  },
+  {
+    "Id": 446,
+    "Name": "Speck"
+  },
+  {
+    "Id": 447,
+    "Name": "Spin Doctors"
+  },
+  {
+    "Id": 448,
+    "Name": "Spinal Tap"
+  },
+  {
+    "Id": 844,
+    "Name": "Spirit Kid"
+  },
+  {
+    "Id": 449,
+    "Name": "SpongeBob SquarePants"
+  },
+  {
+    "Id": 450,
+    "Name": "Spoon"
+  },
+  {
+    "Id": 451,
+    "Name": "Squeeze"
+  },
+  {
+    "Id": 543,
+    "Name": "St. Vincent"
+  },
+  {
+    "Id": 452,
+    "Name": "Staind"
+  },
+  {
+    "Id": 739,
+    "Name": "Starship"
+  },
+  {
+    "Id": 847,
+    "Name": "Starting Line"
+  },
+  {
+    "Id": 453,
+    "Name": "Static-X"
+  },
+  {
+    "Id": 899,
+    "Name": "Status Quo"
+  },
+  {
+    "Id": 454,
+    "Name": "Steely Dan"
+  },
+  {
+    "Id": 455,
+    "Name": "Stephen and the Colberts"
+  },
+  {
+    "Id": 456,
+    "Name": "Sterns"
+  },
+  {
+    "Id": 457,
+    "Name": "Steve Earle"
+  },
+  {
+    "Id": 458,
+    "Name": "Steve Harley & Cockney Rebel"
+  },
+  {
+    "Id": 459,
+    "Name": "Steve Miller Band"
+  },
+  {
+    "Id": 863,
+    "Name": "Steve Pardo"
+  },
+  {
+    "Id": 740,
+    "Name": "Stevie Nicks"
+  },
+  {
+    "Id": 460,
+    "Name": "Stevie Ray Vaughan and Double Trouble"
+  },
+  {
+    "Id": 741,
+    "Name": "Stevie Wonder"
+  },
+  {
+    "Id": 827,
+    "Name": "STL GLD"
+  },
+  {
+    "Id": 461,
+    "Name": "Stone Roses"
+  },
+  {
+    "Id": 462,
+    "Name": "Stone Sour"
+  },
+  {
+    "Id": 463,
+    "Name": "Stone Temple Pilots"
+  },
+  {
+    "Id": 464,
+    "Name": "Stooges"
+  },
+  {
+    "Id": 465,
+    "Name": "Strokes"
+  },
+  {
+    "Id": 466,
+    "Name": "Styx"
+  },
+  {
+    "Id": 467,
+    "Name": "Styx/REO Speedwagon"
+  },
+  {
+    "Id": 742,
+    "Name": "Sublime"
+  },
+  {
+    "Id": 743,
+    "Name": "Sublime with Rome"
+  },
+  {
+    "Id": 468,
+    "Name": "Subways"
+  },
+  {
+    "Id": 854,
+    "Name": "Sugar Ray"
+  },
+  {
+    "Id": 469,
+    "Name": "Sugarland"
+  },
+  {
+    "Id": 470,
+    "Name": "Sum 41"
+  },
+  {
+    "Id": 471,
+    "Name": "Superchick"
+  },
+  {
+    "Id": 472,
+    "Name": "Supergrass"
+  },
+  {
+    "Id": 473,
+    "Name": "Survivor"
+  },
+  {
+    "Id": 474,
+    "Name": "Sweet"
+  },
+  {
+    "Id": 475,
+    "Name": "Sweet Billy Pilgrim"
+  },
+  {
+    "Id": 476,
+    "Name": "Swingin' Utters"
+  },
+  {
+    "Id": 477,
+    "Name": "Switchfoot"
+  },
+  {
+    "Id": 597,
+    "Name": "Symbion Project"
+  },
+  {
+    "Id": 744,
+    "Name": "Symphony X"
+  },
+  {
+    "Id": 478,
+    "Name": "System of a Down"
+  },
+  {
+    "Id": 479,
+    "Name": "T. Rex"
+  },
+  {
+    "Id": 480,
+    "Name": "Taking Back Sunday"
+  },
+  {
+    "Id": 481,
+    "Name": "Talking Heads"
+  },
+  {
+    "Id": 482,
+    "Name": "Tears for Fears"
+  },
+  {
+    "Id": 855,
+    "Name": "Ted Nugent"
+  },
+  {
+    "Id": 483,
+    "Name": "Tegan and Sara"
+  },
+  {
+    "Id": 848,
+    "Name": "Temper Trap"
+  },
+  {
+    "Id": 745,
+    "Name": "Temple of the Dog"
+  },
+  {
+    "Id": 484,
+    "Name": "Tenacious D"
+  },
+  {
+    "Id": 485,
+    "Name": "Testament"
+  },
+  {
+    "Id": 486,
+    "Name": "That Handsome Devil"
+  },
+  {
+    "Id": 489,
+    "Name": "Them Crooked Vultures"
+  },
+  {
+    "Id": 490,
+    "Name": "Them Terribles"
+  },
+  {
+    "Id": 491,
+    "Name": "thenewno2"
+  },
+  {
+    "Id": 492,
+    "Name": "Thin Lizzy"
+  },
+  {
+    "Id": 709,
+    "Name": "Third Eye Blind"
+  },
+  {
+    "Id": 493,
+    "Name": "Thousand Foot Krutch"
+  },
+  {
+    "Id": 746,
+    "Name": "Three Days Grace"
+  },
+  {
+    "Id": 494,
+    "Name": "Thrice"
+  },
+  {
+    "Id": 495,
+    "Name": "Tickle Me Pink"
+  },
+  {
+    "Id": 828,
+    "Name": "Tigerman WOAH"
+  },
+  {
+    "Id": 565,
+    "Name": "Tijuana Sweetheart"
+  },
+  {
+    "Id": 496,
+    "Name": "Timmy & the Lords of the Underworld"
+  },
+  {
+    "Id": 747,
+    "Name": "Toadies"
+  },
+  {
+    "Id": 497,
+    "Name": "Toby Keith"
+  },
+  {
+    "Id": 498,
+    "Name": "Tokio Hotel"
+  },
+  {
+    "Id": 499,
+    "Name": "Tom Petty"
+  },
+  {
+    "Id": 776,
+    "Name": "Tom Petty & The Heartbreakers"
+  },
+  {
+    "Id": 748,
+    "Name": "Tommy Tutone"
+  },
+  {
+    "Id": 771,
+    "Name": "Tonic"
+  },
+  {
+    "Id": 608,
+    "Name": "Toto"
+  },
+  {
+    "Id": 501,
+    "Name": "Trace Adkins"
+  },
+  {
+    "Id": 834,
+    "Name": "Tracy Bonham"
+  },
+  {
+    "Id": 749,
+    "Name": "Train"
+  },
+  {
+    "Id": 502,
+    "Name": "Trapt"
+  },
+  {
+    "Id": 750,
+    "Name": "Travie McCoy (ft. Bruno Mars)"
+  },
+  {
+    "Id": 503,
+    "Name": "Tribe"
+  },
+  {
+    "Id": 751,
+    "Name": "Trivium"
+  },
+  {
+    "Id": 504,
+    "Name": "Trust Company"
+  },
+  {
+    "Id": 505,
+    "Name": "Turbonegro"
+  },
+  {
+    "Id": 506,
+    "Name": "Tutankamon"
+  },
+  {
+    "Id": 507,
+    "Name": "TV on the Radio"
+  },
+  {
+    "Id": 752,
+    "Name": "Twenty One Pilots"
+  },
+  {
+    "Id": 850,
+    "Name": "Twin Atlantic"
+  },
+  {
+    "Id": 753,
+    "Name": "Twisted Sister"
+  },
+  {
+    "Id": 546,
+    "Name": "U2"
+  },
+  {
+    "Id": 508,
+    "Name": "Underoath"
+  },
+  {
+    "Id": 0,
+    "Name": "Unknown"
+  },
+  {
+    "Id": 509,
+    "Name": "Used"
+  },
+  {
+    "Id": 510,
+    "Name": "VAGIANT"
+  },
+  {
+    "Id": 511,
+    "Name": "Vampire Weekend"
+  },
+  {
+    "Id": 564,
+    "Name": "Van Halen"
+  },
+  {
+    "Id": 544,
+    "Name": "Van Morrison"
+  },
+  {
+    "Id": 754,
+    "Name": "Vance Joy"
+  },
+  {
+    "Id": 856,
+    "Name": "Vanilla Ice"
+  },
+  {
+    "Id": 755,
+    "Name": "Vapors"
+  },
+  {
+    "Id": 598,
+    "Name": "Various Artists"
+  },
+  {
+    "Id": 512,
+    "Name": "Veer Union"
+  },
+  {
+    "Id": 772,
+    "Name": "Vertical Horizon"
+  },
+  {
+    "Id": 513,
+    "Name": "Vesuvius"
+  },
+  {
+    "Id": 514,
+    "Name": "Vines"
+  },
+  {
+    "Id": 515,
+    "Name": "Violent Femmes"
+  },
+  {
+    "Id": 758,
+    "Name": "Volbeat"
+  },
+  {
+    "Id": 516,
+    "Name": "Von Bondies"
+  },
+  {
+    "Id": 757,
+    "Name": "Walk The Moon"
+  },
+  {
+    "Id": 517,
+    "Name": "WAR"
+  },
+  {
+    "Id": 551,
+    "Name": "Warning"
+  },
+  {
+    "Id": 800,
+    "Name": "Warning Shots"
+  },
+  {
+    "Id": 759,
+    "Name": "Warrant"
+  },
+  {
+    "Id": 518,
+    "Name": "Warren Zevon"
+  },
+  {
+    "Id": 519,
+    "Name": "We Are The Fallen"
+  },
+  {
+    "Id": 520,
+    "Name": "We the Kings"
+  },
+  {
+    "Id": 756,
+    "Name": "Weeknd"
+  },
+  {
+    "Id": 793,
+    "Name": "Weeknd ft. Daft Punk"
+  },
+  {
+    "Id": 521,
+    "Name": "Weezer"
+  },
+  {
+    "Id": 801,
+    "Name": "When Particles Collide"
+  },
+  {
+    "Id": 542,
+    "Name": "White Denim"
+  },
+  {
+    "Id": 522,
+    "Name": "White Stripes"
+  },
+  {
+    "Id": 523,
+    "Name": "White Zombie"
+  },
+  {
+    "Id": 524,
+    "Name": "Whitechapel"
+  },
+  {
+    "Id": 525,
+    "Name": "Whitesnake"
+  },
+  {
+    "Id": 857,
+    "Name": "Whitney Houston"
+  },
+  {
+    "Id": 526,
+    "Name": "Who"
+  },
+  {
+    "Id": 862,
+    "Name": "Wild Cherry"
+  },
+  {
+    "Id": 761,
+    "Name": "Wild Feathers"
+  },
+  {
+    "Id": 527,
+    "Name": "Willie Nelson"
+  },
+  {
+    "Id": 851,
+    "Name": "Wilson Phillips"
+  },
+  {
+    "Id": 849,
+    "Name": "Wind and The Wave"
+  },
+  {
+    "Id": 775,
+    "Name": "Winger"
+  },
+  {
+    "Id": 528,
+    "Name": "Wir sind Helden"
+  },
+  {
+    "Id": 529,
+    "Name": "Wolfmother"
+  },
+  {
+    "Id": 798,
+    "Name": "Worshipper"
+  },
+  {
+    "Id": 530,
+    "Name": "X"
+  },
+  {
+    "Id": 639,
+    "Name": "X Ambassadors"
+  },
+  {
+    "Id": 531,
+    "Name": "X Japan"
+  },
+  {
+    "Id": 532,
+    "Name": "Yeah Yeah Yeahs"
+  },
+  {
+    "Id": 533,
+    "Name": "Yellowcard"
+  },
+  {
+    "Id": 534,
+    "Name": "Yes"
+  },
+  {
+    "Id": 535,
+    "Name": "Yngwie Malmsteen's Rising Force"
+  },
+  {
+    "Id": 762,
+    "Name": "Young the Giant"
+  },
+  {
+    "Id": 763,
+    "Name": "Zac Brown Band"
+  },
+  {
+    "Id": 536,
+    "Name": "Zombies"
+  },
+  {
+    "Id": 537,
+    "Name": "Zutons"
+  }
+]
