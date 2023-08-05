@@ -8,6 +8,7 @@ import nl.teamrockstars.rockstarstunes.model.Song
 import nl.teamrockstars.rockstarstunes.repo.DuplicateResourceException
 import nl.teamrockstars.rockstarstunes.repo.ResourceNotFoundException
 import nl.teamrockstars.rockstarstunes.repo.RockTunesRepository
+import nl.teamrockstars.rockstarstunes.repo.UnprocessableEntityException
 import org.junit.jupiter.api.Test
 
 import org.springframework.beans.factory.annotation.Autowired
@@ -31,9 +32,9 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
 
     @Test
     fun `Get song by Id`() {
-        every { rockTunesRepository.findSongByIdOrNull(1L) } returns song
+        every { rockTunesRepository.findSongByIdOrNull(song.id) } returns song
 
-        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/song/{id}", 1))
+        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/song/{id}", song.id))
             .andExpect(MockMvcResultMatchers.status().isOk)
             .andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON))
             .andExpect(MockMvcResultMatchers.jsonPath("$.name").value(song.name))
@@ -41,9 +42,10 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
 
     @Test
     fun `Get NOT_FOUND response when song is not found`() {
-        every { rockTunesRepository.findSongByIdOrNull(2L) } returns null
+        val unknownSongId = 2L
+        every { rockTunesRepository.findSongByIdOrNull(unknownSongId) } returns null
 
-        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/song/{id}", 2))
+        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/song/{id}", unknownSongId))
             .andExpect(MockMvcResultMatchers.status().isNotFound)
     }
 
@@ -71,7 +73,8 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
 
     @Test
     fun `Add new song, is not successful when band exists`() {
-        every { rockTunesRepository.saveSong(song) } returns Result.failure(DuplicateResourceException("Duplicate"))
+        val errorMsg = "Duplicate"
+        every { rockTunesRepository.saveSong(song) } returns Result.failure(DuplicateResourceException(errorMsg))
 
         mockMvc.perform(
             MockMvcRequestBuilders.post("/rocktunes-api/song")
@@ -79,7 +82,7 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
                 .contentType(MediaType.APPLICATION_JSON)
         )
             .andExpect(MockMvcResultMatchers.status().isConflict)
-            .andExpect(MockMvcResultMatchers.content().string("Duplicate"))
+            .andExpect(MockMvcResultMatchers.content().string(errorMsg))
     }
 
     @Test
@@ -87,7 +90,7 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
         every { rockTunesRepository.updateSong(song.id, song) } returns Result.success(song)
 
         mockMvc.perform(
-            MockMvcRequestBuilders.put("/rocktunes-api/songs/{id}", 1)
+            MockMvcRequestBuilders.put("/rocktunes-api/songs/{id}", song.id)
                 .content(mapper.writeValueAsString(song))
                 .contentType(MediaType.APPLICATION_JSON)
         )
@@ -106,12 +109,13 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
 
     @Test
     fun `Update song by id, is not successful when song doesn't exist`() {
+        val errorMsg = "Not Found"
         every {
             rockTunesRepository.updateSong(
                 song.id,
                 song
             )
-        } returns Result.failure(ResourceNotFoundException("Not Found"))
+        } returns Result.failure(ResourceNotFoundException(errorMsg))
 
         mockMvc.perform(
             MockMvcRequestBuilders.put("/rocktunes-api/songs/{id}", 1)
@@ -119,7 +123,7 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
                 .contentType(MediaType.APPLICATION_JSON)
         )
             .andExpect(MockMvcResultMatchers.status().isNotFound)
-            .andExpect(MockMvcResultMatchers.content().string("Not Found"))
+            .andExpect(MockMvcResultMatchers.content().string(errorMsg))
     }
 
     @Test
@@ -133,20 +137,42 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
     }
 
     @Test
-    fun deleteSongById() {
-        justRun { rockTunesRepository.deleteSongByIdOrNull(1L) }
+    fun `Update song by id, fails with UnprocessableEntity exception`() {
+        val errorMsg = "Unprocessable Entity"
+        every {
+            rockTunesRepository.updateSong(
+                song.id,
+                song
+            )
+        } returns Result.failure(UnprocessableEntityException(errorMsg))
 
-        mockMvc.perform(MockMvcRequestBuilders.delete("/rocktunes-api/song/{id}", 1))
+        mockMvc.perform(
+            MockMvcRequestBuilders.put("/rocktunes-api/songs/{id}", song.id)
+                .content(mapper.writeValueAsString(song))
+                .contentType(MediaType.APPLICATION_JSON)
+        )
+            .andExpect(MockMvcResultMatchers.status().isUnprocessableEntity)
+            .andExpect(MockMvcResultMatchers.content().string(errorMsg))
+    }
+
+    @Test
+    fun deleteSongById() {
+        justRun { rockTunesRepository.deleteSongByIdOrNull(song.id) }
+
+        mockMvc.perform(MockMvcRequestBuilders.delete("/rocktunes-api/song/{id}", song.id))
             .andExpect(MockMvcResultMatchers.status().isAccepted())
     }
 
     @Test
     fun `Delete song by id, is not successful when song does not exist`() {
-        every { rockTunesRepository.deleteSongByIdOrNull(1L) } returns Result.failure(ResourceNotFoundException("Not Found"))
+        val errorMsg = "Not Found"
+        every { rockTunesRepository.deleteSongByIdOrNull(song.id) } returns Result.failure(ResourceNotFoundException(
+            errorMsg
+        ))
 
-        mockMvc.perform(MockMvcRequestBuilders.delete("/rocktunes-api/song/{id}", 1))
+        mockMvc.perform(MockMvcRequestBuilders.delete("/rocktunes-api/song/{id}", song.id))
             .andExpect(MockMvcResultMatchers.status().isNotFound)
-            .andExpect(MockMvcResultMatchers.content().string("Not Found"))
+            .andExpect(MockMvcResultMatchers.content().string(errorMsg))
     }
 
     @Test

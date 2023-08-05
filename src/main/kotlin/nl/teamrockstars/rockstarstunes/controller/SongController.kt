@@ -5,6 +5,7 @@ import nl.teamrockstars.rockstarstunes.model.Song
 import nl.teamrockstars.rockstarstunes.repo.DuplicateResourceException
 import nl.teamrockstars.rockstarstunes.repo.ResourceNotFoundException
 import nl.teamrockstars.rockstarstunes.repo.RockTunesRepository
+import nl.teamrockstars.rockstarstunes.repo.UnprocessableEntityException
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
@@ -73,6 +74,7 @@ class SongController(
     fun handleExceptions(exception: Exception) = when (exception) {
         is DuplicateResourceException -> ResponseEntity(exception.message, HttpStatus.CONFLICT)
         is ResourceNotFoundException -> ResponseEntity(exception.message, HttpStatus.NOT_FOUND)
+        is UnprocessableEntityException -> ResponseEntity(exception.message, HttpStatus.UNPROCESSABLE_ENTITY)
         else -> ResponseEntity.badRequest().body(exception.message)
     }
 

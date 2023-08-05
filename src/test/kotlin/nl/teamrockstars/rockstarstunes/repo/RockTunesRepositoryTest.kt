@@ -246,27 +246,26 @@ class RockTunesRepositoryTest {
     }
 
     @Test
-    fun `Update song when in the repo another song has the same name, is successfully updated`() {
+    fun `Update song when in the repo another song has the same artist name, is successfully updated`() {
+        val artist = Artist(1L, "Test Artist")
         val sameNameSong = Song(
-            1L, "Test Song", 2016, "Test Artist",
+            1L, "Test Song", 2016, artist.name,
             "song", 100, 197350, "Metal", "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
         )
         val songToBeUpdated = Song(
-            2L, "To be updated Test Song", 2017, "Test Artist",
+            2L, "To be updated Test Song", 2017, artist.name,
             "updatedsong", 289, 212208, "Metal", "6Ud9fOJQ9ZO2qnsMFPiJsh", "Test Updated Album"
         )
-        val artist = Artist(1L, "Test Artist")
         val rockTunesRepository =
             RockTunesRepository(mutableListOf(artist), mutableListOf(sameNameSong, songToBeUpdated))
         val update = Song(
-            2L, "Updated Test Song", 2017, "Test Artist",
+            2L, "Updated Test Song", 2017, artist.name,
             "updatedsong", 289, 212208, "Metal", "6Ud9fOJQ9ZO2qnsMFPiJsh", "Test Updated Album"
         )
 
         val result = rockTunesRepository.updateSong(update.id, update)
         val  updatedSong= rockTunesRepository.findSongByIdOrNull(2L)
-
-        assertEquals(true, result.isSuccess)
+        assertEquals(Result.success(updatedSong!!), result)
         assertEquals(update, updatedSong)
     }
 
