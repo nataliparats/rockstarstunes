@@ -3,19 +3,6 @@ package nl.teamrockstars.rockstarstunes.repo
 import nl.teamrockstars.rockstarstunes.model.Artist
 import nl.teamrockstars.rockstarstunes.model.Song
 
-interface RockTunesRepository {
-    fun findArtistByIdOrNull(id: Long): Artist?
-    fun findAllArtists(): List<Artist>
-    fun saveArtist(artist: Artist): Result<Artist>
-    fun updateArtist(id: Long, artist: Artist): Result<Artist>
-    fun deleteArtistByIdOrNull(id: Long): Result<Unit>
-    fun findSongByIdOrNull(id: Long): Song?
-    fun saveSong(song: Song): Result<Song>
-    fun updateSong(id: Long, song: Song): Result<Song>
-    fun deleteSongByIdOrNull(id: Long): Result<Unit>
-    fun findAllSongs(): List<Song>
-}
-
 class RockTunesRepositoryInMemory(private val artists: MutableList<Artist>, private val songs: MutableList<Song>) :
     RockTunesRepository {
     override fun findArtistByIdOrNull(id: Long): Artist? {

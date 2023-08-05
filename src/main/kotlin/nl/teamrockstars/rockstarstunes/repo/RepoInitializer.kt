@@ -32,3 +32,12 @@ class RepoInitializer {
     }
 
 }
+class ArtistCreator {
+    fun createAndAddMissingArtists(songs: List<Song>, artists: List<Artist>): List<Artist> {
+        val missingArtistNames = songs.map { it.artist }
+            .filterNot { it in artists.map { it.name } }
+            .distinct()
+        val maxExistingId = artists.maxOfOrNull { it.id }!!
+        return missingArtistNames.mapIndexed { index, artistName -> Artist(maxExistingId + index + 1, artistName) }
+    }
+}
