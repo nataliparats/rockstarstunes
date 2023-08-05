@@ -132,9 +132,11 @@ class ArtistControllerTest(@Autowired private val mockMvc: MockMvc) {
     @Test
     fun `Delete band by id, is not successful when band does not exist`() {
         val errorMsg = "Not Found"
-        every { rockTunesRepository.deleteArtistByIdOrNull(artist.id) } returns Result.failure(ResourceNotFoundException(
+        every { rockTunesRepository.deleteArtistByIdOrNull(artist.id) } returns Result.failure(
+            ResourceNotFoundException(
             errorMsg
-        ))
+        )
+        )
 
         mockMvc.perform(delete("/rocktunes-api/artist/{id}", artist.id))
             .andExpect(status().isNotFound)
@@ -144,9 +146,11 @@ class ArtistControllerTest(@Autowired private val mockMvc: MockMvc) {
     @Test
     fun `Delete band by id, fails with Unprocessable Entity`() {
         val errorMsg = "Unprocessable Entity"
-        every { rockTunesRepository.deleteArtistByIdOrNull(artist.id) } returns Result.failure(UnprocessableEntityException(
+        every { rockTunesRepository.deleteArtistByIdOrNull(artist.id) } returns Result.failure(
+            UnprocessableEntityException(
             errorMsg
-        ))
+        )
+        )
 
         mockMvc.perform(delete("/rocktunes-api/artist/{id}", artist.id))
             .andExpect(status().isUnprocessableEntity)

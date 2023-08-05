@@ -1,7 +1,11 @@
-package nl.teamrockstars.rockstarstunes.repo
+package nl.teamrockstars.rockstarstunes.repo.inmemory
 
 import nl.teamrockstars.rockstarstunes.model.Artist
 import nl.teamrockstars.rockstarstunes.model.Song
+import nl.teamrockstars.rockstarstunes.repo.RockTunesRepository
+import nl.teamrockstars.rockstarstunes.repo.DuplicateResourceException
+import nl.teamrockstars.rockstarstunes.repo.ResourceNotFoundException
+import nl.teamrockstars.rockstarstunes.repo.UnprocessableEntityException
 
 class RockTunesRepositoryInMemory(private val artists: MutableList<Artist>, private val songs: MutableList<Song>) :
     RockTunesRepository {
@@ -102,7 +106,3 @@ class RockTunesRepositoryInMemory(private val artists: MutableList<Artist>, priv
     private fun List<Song>.hasSongWithId(id: Long) = this.any { it.id == id }
 
 }
-
-class DuplicateResourceException(msg: String) : RuntimeException(msg)
-class ResourceNotFoundException(msg: String) : RuntimeException(msg)
-class UnprocessableEntityException(msg: String) : RuntimeException(msg)

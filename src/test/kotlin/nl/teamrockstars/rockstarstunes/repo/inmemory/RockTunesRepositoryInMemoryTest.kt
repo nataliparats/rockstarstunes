@@ -1,7 +1,10 @@
-package nl.teamrockstars.rockstarstunes.repo
+package nl.teamrockstars.rockstarstunes.repo.inmemory
 
 import nl.teamrockstars.rockstarstunes.model.Artist
 import nl.teamrockstars.rockstarstunes.model.Song
+import nl.teamrockstars.rockstarstunes.repo.DuplicateResourceException
+import nl.teamrockstars.rockstarstunes.repo.ResourceNotFoundException
+import nl.teamrockstars.rockstarstunes.repo.UnprocessableEntityException
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 
@@ -26,7 +29,7 @@ class RockTunesRepositoryInMemoryTest {
 
         val result = rockTunesRepositoryInMemory.findArtistByIdOrNull(2L)
 
-        assertEquals(null, result)
+        assertNull(result)
     }
 
     @Test
@@ -86,7 +89,7 @@ class RockTunesRepositoryInMemoryTest {
         val updatedArtist = Artist(2L, "Same Name Artist")
 
         val result = rockTunesRepositoryInMemory.updateArtist(updatedArtist.id, updatedArtist)
-        val notUpdatedArtist = rockTunesRepositoryInMemory.findArtistByIdOrNull(2L)
+        val notUpdatedArtist = rockTunesRepositoryInMemory.findArtistByIdOrNull(updatedArtist.id)
 
         assertEquals(true, result.isFailure)
         assertThat(result.exceptionOrNull()).isInstanceOf(DuplicateResourceException::class.java)

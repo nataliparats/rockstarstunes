@@ -166,9 +166,11 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
     @Test
     fun `Delete song by id, is not successful when song does not exist`() {
         val errorMsg = "Not Found"
-        every { rockTunesRepository.deleteSongByIdOrNull(song.id) } returns Result.failure(ResourceNotFoundException(
+        every { rockTunesRepository.deleteSongByIdOrNull(song.id) } returns Result.failure(
+            ResourceNotFoundException(
             errorMsg
-        ))
+        )
+        )
 
         mockMvc.perform(MockMvcRequestBuilders.delete("/rocktunes-api/song/{id}", song.id))
             .andExpect(MockMvcResultMatchers.status().isNotFound)
