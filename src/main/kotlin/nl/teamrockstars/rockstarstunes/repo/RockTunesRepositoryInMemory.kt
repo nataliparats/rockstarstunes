@@ -3,14 +3,28 @@ package nl.teamrockstars.rockstarstunes.repo
 import nl.teamrockstars.rockstarstunes.model.Artist
 import nl.teamrockstars.rockstarstunes.model.Song
 
-class RockTunesRepository(private val artists: MutableList<Artist>, private val songs: MutableList<Song>) {
-    fun findArtistByIdOrNull(id: Long): Artist? {
+interface RockTunesRepository {
+    fun findArtistByIdOrNull(id: Long): Artist?
+    fun findAllArtists(): List<Artist>
+    fun saveArtist(artist: Artist): Result<Artist>
+    fun updateArtist(id: Long, artist: Artist): Result<Artist>
+    fun deleteArtistByIdOrNull(id: Long): Result<Unit>
+    fun findSongByIdOrNull(id: Long): Song?
+    fun saveSong(song: Song): Result<Song>
+    fun updateSong(id: Long, song: Song): Result<Song>
+    fun deleteSongByIdOrNull(id: Long): Result<Unit>
+    fun findAllSongs(): List<Song>
+}
+
+class RockTunesRepositoryInMemory(private val artists: MutableList<Artist>, private val songs: MutableList<Song>) :
+    RockTunesRepository {
+    override fun findArtistByIdOrNull(id: Long): Artist? {
         return artists.find { it.id == id }
     }
 
-    fun findAllArtists(): List<Artist> = artists.toList()
+    override fun findAllArtists(): List<Artist> = artists.toList()
 
-    fun saveArtist(artist: Artist): Result<Artist> =
+    override fun saveArtist(artist: Artist): Result<Artist> =
         if (artists.hasArtistWithId(artist.id)) {
             Result.failure(DuplicateResourceException("De band bestaat al"))
         } else {
@@ -18,7 +32,7 @@ class RockTunesRepository(private val artists: MutableList<Artist>, private val 
             Result.success(artist)
         }
 
-    fun updateArtist(id: Long, artist: Artist): Result<Artist> =
+    override fun updateArtist(id: Long, artist: Artist): Result<Artist> =
         if (artists.hasArtistWithId(id)) {
             if (artists.hasArtistWithName(artist.name))
                 Result.failure(DuplicateResourceException("De band met naam ${artist.name} bestaat al"))
@@ -31,7 +45,7 @@ class RockTunesRepository(private val artists: MutableList<Artist>, private val 
             Result.failure(ResourceNotFoundException("De band bestaat niet"))
         }
 
-    fun deleteArtistByIdOrNull(id: Long): Result<Unit> {
+    override fun deleteArtistByIdOrNull(id: Long): Result<Unit> {
         val artist = findArtistByIdOrNull(id)
         return if (artist != null) {
             if (songs.find { it.artist == artist.name } != null)
@@ -48,10 +62,10 @@ class RockTunesRepository(private val artists: MutableList<Artist>, private val 
         }
     }
 
-    fun findSongByIdOrNull(id: Long): Song? =
+    override fun findSongByIdOrNull(id: Long): Song? =
         songs.find { it.id == id }
 
-    fun saveSong(song: Song): Result<Song> =
+    override fun saveSong(song: Song): Result<Song> =
         if (songs.hasSongWithId(song.id)) {
             Result.failure(DuplicateResourceException("Het liedje bestaat niet"))
         } else if (!artists.hasArtistWithName(song.artist)) {
@@ -66,7 +80,7 @@ class RockTunesRepository(private val artists: MutableList<Artist>, private val 
             Result.success(song)
         }
 
-    fun updateSong(id: Long, song: Song): Result<Song> =
+    override fun updateSong(id: Long, song: Song): Result<Song> =
         if (songs.hasSongWithId(id)) {
             if (!artists.hasArtistWithName(song.artist))
                 Result.failure(
@@ -83,7 +97,7 @@ class RockTunesRepository(private val artists: MutableList<Artist>, private val 
             Result.failure(ResourceNotFoundException("Het liedje bestaat niet"))
         }
 
-    fun deleteSongByIdOrNull(id: Long): Result<Unit> =
+    override fun deleteSongByIdOrNull(id: Long): Result<Unit> =
         if (songs.hasSongWithId(id)) {
             val song = songs.find { it.id == id }
             songs.remove(song)
@@ -92,7 +106,7 @@ class RockTunesRepository(private val artists: MutableList<Artist>, private val 
             Result.failure(ResourceNotFoundException("Het liedje bestaat niet"))
         }
 
-    fun findAllSongs(): List<Song> = songs.toList()
+    override fun findAllSongs(): List<Song> = songs.toList()
 
     private fun List<Artist>.hasArtistWithId(id: Long) = this.any { it.id == id }
 

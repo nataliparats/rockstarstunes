@@ -28,7 +28,7 @@ class RepoInitializer {
         )
         val missingArtists = ArtistCreator().createAndAddMissingArtists(songs.toList(), artists.toList())
         artists.addAll(missingArtists)
-        return RockTunesRepository(artists, songs)
+        return RockTunesRepositoryInMemory(artists, songs)
     }
 
 }
