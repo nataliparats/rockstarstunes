@@ -40,7 +40,7 @@ class RockTunesRepositoryJpaTest(
     }
 
     @AfterEach
-    fun clearDatabaseAgain() {
+    fun clearDatabase() {
         artistRepository.deleteAll()
         songRepository.deleteAll()
     }
