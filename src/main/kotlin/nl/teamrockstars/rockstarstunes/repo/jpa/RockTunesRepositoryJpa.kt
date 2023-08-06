@@ -17,19 +17,39 @@ interface ArtistRepository: JpaRepository<JpaArtist, Long> {
 
 interface SongRepository: JpaRepository<JpaSong, Long> {
     fun findByArtist(name: String): List<JpaSong>
-
+    fun findByGenreAndYearGreaterThanEqual(genre: String, year: Int): List<JpaSong>
     fun findByGenre(genre: String): List<JpaSong>
 }
 
 fun JpaArtist.toArtist() = Artist(this.id, this.name)
-
 fun Artist.toJpaArtist() = JpaArtist(this.id, this.name)
+fun List<JpaSong>.toSongs() = this.map { it.toSong() }
 
-fun JpaSong.toSong() = Song(this.id, this.name, this.year, this.artist, this.shortname, this.bpm, this.duration,
-    this.genre, this.spotifyId, this.album)
+fun JpaSong.toSong() = Song(
+    id = id,
+    name = name,
+    year = year,
+    artist = artist,
+    shortname = shortname,
+    bpm = bpm,
+    duration = duration,
+    genre = genre,
+    spotifyId = spotifyId,
+    album = album,
+)
 
-fun Song.toJpaSong() = JpaSong(this.id, this.name, this.year, this.artist, this.shortname, this.bpm, this.duration,
-    this.genre, this.spotifyId, this.album)
+fun Song.toJpaSong() = JpaSong(
+    id = id,
+    name = name,
+    year = year,
+    artist = artist,
+    shortname = shortname,
+    bpm = bpm,
+    duration = duration,
+    genre = genre,
+    spotifyId = spotifyId,
+    album = album,
+)
 
 class RockTunesRepositoryJpa( private val artistRepository: ArtistRepository,
     private val songRepository: SongRepository) : RockTunesRepository {
@@ -112,10 +132,13 @@ class RockTunesRepositoryJpa( private val artistRepository: ArtistRepository,
         return Result.success(Unit)
     }
 
-    override fun findAllSongs(): List<Song> = songRepository.findAll().map { it.toSong() }
+    override fun findAllSongs(): List<Song> = songRepository.findAll().toSongs()
 
-    override fun findAllSongsByGenre(genre: String): List<Song> =
-        songRepository.findByGenre(genre).map { it.toSong() }
+    override fun findAllSongsByGenreAndYear(genre: String, yearSince: Int?): List<Song> =
+        when (yearSince) {
+            null -> songRepository.findByGenre(genre)
+            else -> songRepository.findByGenreAndYearGreaterThanEqual(genre, yearSince)
+        }.toSongs()
 
 }
 

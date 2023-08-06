@@ -99,9 +99,12 @@ class RockTunesRepositoryInMemory(private val artists: MutableList<Artist>, priv
 
     override fun findAllSongs(): List<Song> = songs
 
-    override fun findAllSongsByGenre(genre: String): List<Song> {
-        return songs.filter { it.genre == genre }
-    }
+    override fun findAllSongsByGenreAndYear(genre: String, yearSince: Int?): List<Song> =
+        songs.filter { it.genre == genre }.let { songsWithGenre ->
+            if (yearSince != null) {
+                songsWithGenre.filter { it.year >= yearSince }
+            } else songsWithGenre
+        }
 
     private fun List<Artist>.hasArtistWithId(id: Long) = this.any { it.id == id }
 

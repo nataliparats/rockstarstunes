@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
@@ -67,8 +68,8 @@ class SongController(
     }
 
     @GetMapping("/songs/genre/{genre}")
-    fun findAllSongsByGenreAndYear(@PathVariable genre: String): ResponseEntity<List<Song>> {
-        val songs = rockTunesRepository.findAllSongsByGenre(genre)
+    fun findAllSongsByGenreAndYear(@PathVariable genre: String, @RequestParam yearSince: Int?): ResponseEntity<List<Song>> {
+        val songs = rockTunesRepository.findAllSongsByGenreAndYear(genre, yearSince)
         return ResponseEntity(songs, HttpStatus.OK)
     }
 

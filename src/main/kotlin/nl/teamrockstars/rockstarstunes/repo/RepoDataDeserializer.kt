@@ -35,8 +35,8 @@ private data class ArtistJson(
     val Name: String
 ) {
     fun toArtist() = Artist(
-        this.Id.toLong(),
-        this.Name
+        id = Id.toLong(),
+        name = Name
     )
 }
 
@@ -53,16 +53,16 @@ private data class SongJson(
     val Album: String?
 ) {
     fun toSong() = Song(
-        this.Id.toLong(),
-        this.Name,
-        this.Year,
-        this.Artist,
-        this.Shortname,
-        this.Bpm,
-        this.Duration,
-        this.Genre,
-        this.SpotifyId,
-        this.Album
+        id = Id.toLong(),
+        name = Name,
+        year = Year,
+        artist = Artist,
+        shortname = Shortname,
+        bpm = Bpm,
+        duration = Duration,
+        genre = Genre,
+        spotifyId = SpotifyId,
+        album = Album
     )
 }
 

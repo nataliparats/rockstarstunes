@@ -323,10 +323,11 @@ class RockTunesRepositoryInMemoryTest {
     }
 
     @Test
-    fun `Find all songs by genre`() {
+    fun `Find all songs by genre and year`() {
         val requestedGenre = "Metal"
+        val requestedYear = 2016
         val song1 = Song(
-            1L, "Test Song", 2016, "Test Artist",
+            1L, "Test Song", 2015, "Test Artist",
             "song", 100, 197350, requestedGenre, "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
         )
         val song2 = Song(
@@ -339,9 +340,9 @@ class RockTunesRepositoryInMemoryTest {
         )
         val rockTunesRepositoryInMemory = RockTunesRepositoryInMemory(mutableListOf(), mutableListOf(song1, song2, song3))
 
-        val result = rockTunesRepositoryInMemory.findAllSongsByGenre(requestedGenre)
+        val result = rockTunesRepositoryInMemory.findAllSongsByGenreAndYear(requestedGenre, requestedYear)
 
-        assertEquals(listOf(song1, song3), result)
+        assertEquals(listOf(song3), result)
     }
 
     @Test
@@ -354,7 +355,7 @@ class RockTunesRepositoryInMemoryTest {
         val rockTunesRepositoryInMemory = RockTunesRepositoryInMemory(mutableListOf(), mutableListOf(song))
 
 
-        val result = rockTunesRepositoryInMemory.findAllSongsByGenre("Another Genre")
+        val result = rockTunesRepositoryInMemory.findAllSongsByGenreAndYear("Another Genre", null)
 
         assertTrue(result.isEmpty())
     }

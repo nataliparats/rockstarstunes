@@ -353,10 +353,11 @@ class RockTunesRepositoryJpaTest(
     }
 
     @Test
-    fun `Find all songs by genre`() {
+    fun `Find all songs by genre and year`() {
         val requestedGenre = "Metal"
+        val requestedYear = 2016
         val song1 = JpaSong(
-            1L, "Test Song", 2016, "Test Artist",
+            1L, "Test Song", 2015, "Test Artist",
             "song", 100, 197350, requestedGenre, "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
         )
         val song2 = JpaSong(
@@ -369,9 +370,9 @@ class RockTunesRepositoryJpaTest(
         )
         songRepository.saveAll(listOf(song1, song2, song3))
 
-        val result = repository.findAllSongsByGenre(requestedGenre)
+        val result = repository.findAllSongsByGenreAndYear(requestedGenre, requestedYear)
 
-        assertEquals(listOf(song1.toSong(), song3.toSong()), result)
+        assertEquals(listOf(song3.toSong()), result)
     }
 
     @Test
@@ -383,8 +384,23 @@ class RockTunesRepositoryJpaTest(
 
         songRepository.saveAll(listOf(song))
 
-        val result = repository.findAllSongsByGenre("Another Genre")
+        val result = repository.findAllSongsByGenreAndYear("Another Genre", null)
 
         assertTrue(result.isEmpty())
+    }
+
+    @Test
+    fun `Find all songs by genre, don't filter for year`() {
+        val requestedGenre = "Metal"
+        val song = JpaSong(
+            1L, "Test Song", 2016, "Test Artist",
+            "song", 100, 197350, requestedGenre, "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
+        )
+
+        songRepository.saveAll(listOf(song))
+
+        val result = repository.findAllSongsByGenreAndYear(requestedGenre, null)
+
+        assertEquals(listOf(song.toSong()), result)
     }
 }

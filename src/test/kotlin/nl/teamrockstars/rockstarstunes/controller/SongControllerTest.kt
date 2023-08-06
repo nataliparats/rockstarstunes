@@ -190,19 +190,18 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
     }
 
     @Test
-    fun `Find all songs by genre`() {
-        every { rockTunesRepository.findAllSongsByGenre(song.genre) } returns listOf(song)
+    fun `Find all songs by genre and year since given year`() {
+        every { rockTunesRepository.findAllSongsByGenreAndYear(song.genre, 2016) } returns listOf(song)
 
-        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/songs/genre/{genre}", song.genre))
+        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/songs/genre/{genre}?yearSince={year}", song.genre, song.year))
             .andExpect(MockMvcResultMatchers.status().isOk)
             .andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON))
             .andExpect(MockMvcResultMatchers.jsonPath("$.[0].name").value(song.name))
     }
 
-    @Disabled
     @Test
     fun `Find all songs by genre, returns empty list if no songs for provided genre is found`() {
-        every { rockTunesRepository.findAllSongsByGenre(song.genre) } returns emptyList()
+        every { rockTunesRepository.findAllSongsByGenreAndYear(song.genre, null) } returns emptyList()
 
         mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/songs/genre/{genre}", song.genre))
             .andExpect(MockMvcResultMatchers.status().isOk)
