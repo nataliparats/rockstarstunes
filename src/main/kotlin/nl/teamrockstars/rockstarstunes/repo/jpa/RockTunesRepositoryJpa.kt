@@ -17,6 +17,8 @@ interface ArtistRepository: JpaRepository<JpaArtist, Long> {
 
 interface SongRepository: JpaRepository<JpaSong, Long> {
     fun findByArtist(name: String): List<JpaSong>
+
+    fun findByGenre(genre: String): List<JpaSong>
 }
 
 fun JpaArtist.toArtist() = Artist(this.id, this.name)
@@ -34,7 +36,7 @@ class RockTunesRepositoryJpa( private val artistRepository: ArtistRepository,
 
     override fun findArtistByIdOrNull(id: Long): Artist? = artistRepository.findByIdOrNull(id)?.toArtist()
 
-    override fun findAllArtists(): List<Artist> = artistRepository.findAll().map { it.toArtist() }.toList()
+    override fun findAllArtists(): List<Artist> = artistRepository.findAll().map { it.toArtist() }
 
     override fun saveArtist(artist: Artist): Result<Artist> {
         if (artistRepository.existsById(artist.id)){
@@ -110,6 +112,10 @@ class RockTunesRepositoryJpa( private val artistRepository: ArtistRepository,
         return Result.success(Unit)
     }
 
-    override fun findAllSongs(): List<Song> = songRepository.findAll().map { it.toSong() }.toList()
+    override fun findAllSongs(): List<Song> = songRepository.findAll().map { it.toSong() }
+
+    override fun findAllSongsByGenre(genre: String): List<Song> =
+        songRepository.findByGenre(genre).map { it.toSong() }
+
 }
 

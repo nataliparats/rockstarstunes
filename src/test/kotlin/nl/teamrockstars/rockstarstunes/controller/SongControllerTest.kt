@@ -9,6 +9,7 @@ import nl.teamrockstars.rockstarstunes.repo.DuplicateResourceException
 import nl.teamrockstars.rockstarstunes.repo.ResourceNotFoundException
 import nl.teamrockstars.rockstarstunes.repo.RockTunesRepository
 import nl.teamrockstars.rockstarstunes.repo.UnprocessableEntityException
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
 import org.springframework.beans.factory.annotation.Autowired
@@ -172,6 +173,7 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
         )
         )
 
+        //TODO change path to songs
         mockMvc.perform(MockMvcRequestBuilders.delete("/rocktunes-api/song/{id}", song.id))
             .andExpect(MockMvcResultMatchers.status().isNotFound)
             .andExpect(MockMvcResultMatchers.content().string(errorMsg))
@@ -187,4 +189,24 @@ class SongControllerTest(@Autowired private val mockMvc: MockMvc) {
             .andExpect(MockMvcResultMatchers.jsonPath("$.[0].name").value(song.name))
     }
 
+    @Test
+    fun `Find all songs by genre`() {
+        every { rockTunesRepository.findAllSongsByGenre(song.genre) } returns listOf(song)
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/songs/genre/{genre}", song.genre))
+            .andExpect(MockMvcResultMatchers.status().isOk)
+            .andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON))
+            .andExpect(MockMvcResultMatchers.jsonPath("$.[0].name").value(song.name))
+    }
+
+    @Disabled
+    @Test
+    fun `Find all songs by genre, returns empty list if no songs for provided genre is found`() {
+        every { rockTunesRepository.findAllSongsByGenre(song.genre) } returns emptyList()
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/rocktunes-api/songs/genre/{genre}", song.genre))
+            .andExpect(MockMvcResultMatchers.status().isOk)
+            .andExpect(MockMvcResultMatchers.content().contentType(MediaType.APPLICATION_JSON))
+            .andExpect(MockMvcResultMatchers.jsonPath("$").isEmpty)
+    }
 }

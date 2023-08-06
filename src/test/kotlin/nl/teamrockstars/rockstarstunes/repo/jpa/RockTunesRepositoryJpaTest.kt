@@ -27,8 +27,8 @@ import nl.teamrockstars.rockstarstunes.repo.jpa.model.Song as JpaSong
 @Testcontainers
 @ActiveProfiles("jpa")
 class RockTunesRepositoryJpaTest(
-    @Autowired val artistRepository: ArtistRepository,
-    @Autowired val songRepository: SongRepository,
+    @Autowired private val artistRepository: ArtistRepository,
+    @Autowired private val songRepository: SongRepository,
 ) {
 
     private val repository = RockTunesRepositoryJpa(artistRepository, songRepository)
@@ -352,4 +352,39 @@ class RockTunesRepositoryJpaTest(
         assertEquals(listOf(song1.toSong(), song2.toSong()), result)
     }
 
+    @Test
+    fun `Find all songs by genre`() {
+        val requestedGenre = "Metal"
+        val song1 = JpaSong(
+            1L, "Test Song", 2016, "Test Artist",
+            "song", 100, 197350, requestedGenre, "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
+        )
+        val song2 = JpaSong(
+            2L, "Test Song 2", 2017, "Test Artist 2",
+            "song2", 289, 212208, "Something Else", "6Ud9fOJQ9ZO2qnsMFPiJsh", "Test Album 2"
+        )
+        val song3 = JpaSong(
+            2L, "Test Song 2", 2017, "Test Artist 2",
+            "song2", 289, 212208, requestedGenre, "6Ud9fOJQ9ZO2qnsMFPiJsh", "Test Album 2"
+        )
+        songRepository.saveAll(listOf(song1, song2, song3))
+
+        val result = repository.findAllSongsByGenre(requestedGenre)
+
+        assertEquals(listOf(song1.toSong(), song3.toSong()), result)
+    }
+
+    @Test
+    fun `Find all songs by genre, returns empty list if no songs match`() {
+        val song = JpaSong(
+            1L, "Test Song", 2016, "Test Artist",
+            "song", 100, 197350, "Metal", "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
+        )
+
+        songRepository.saveAll(listOf(song))
+
+        val result = repository.findAllSongsByGenre("Another Genre")
+
+        assertTrue(result.isEmpty())
+    }
 }

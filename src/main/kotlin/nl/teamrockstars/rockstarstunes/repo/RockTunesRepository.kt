@@ -14,6 +14,7 @@ interface RockTunesRepository {
     fun updateSong(id: Long, song: Song): Result<Song>
     fun deleteSongByIdOrNull(id: Long): Result<Unit>
     fun findAllSongs(): List<Song>
+    fun findAllSongsByGenre(genre: String): List<Song>
 }
 class DuplicateResourceException(msg: String) : RuntimeException(msg)
 class ResourceNotFoundException(msg: String) : RuntimeException(msg)

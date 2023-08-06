@@ -321,4 +321,41 @@ class RockTunesRepositoryInMemoryTest {
         assertThat(result.exceptionOrNull()).isInstanceOf(ResourceNotFoundException::class.java)
         assertEquals(1, songs.size)
     }
+
+    @Test
+    fun `Find all songs by genre`() {
+        val requestedGenre = "Metal"
+        val song1 = Song(
+            1L, "Test Song", 2016, "Test Artist",
+            "song", 100, 197350, requestedGenre, "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
+        )
+        val song2 = Song(
+            2L, "Test Song 2", 2017, "Test Artist 2",
+            "song2", 289, 212208, "Something Else", "6Ud9fOJQ9ZO2qnsMFPiJsh", "Test Album 2"
+        )
+        val song3 = Song(
+            2L, "Test Song 2", 2017, "Test Artist 2",
+            "song2", 289, 212208, requestedGenre, "6Ud9fOJQ9ZO2qnsMFPiJsh", "Test Album 2"
+        )
+        val rockTunesRepositoryInMemory = RockTunesRepositoryInMemory(mutableListOf(), mutableListOf(song1, song2, song3))
+
+        val result = rockTunesRepositoryInMemory.findAllSongsByGenre(requestedGenre)
+
+        assertEquals(listOf(song1, song3), result)
+    }
+
+    @Test
+    fun `Find all songs by genre, returns empty list if no songs match`() {
+        val song = Song(
+            1L, "Test Song", 2016, "Test Artist",
+            "song", 100, 197350, "Metal", "1LkjMNCu16QUwHJbzTqPnR", "Test Album"
+        )
+
+        val rockTunesRepositoryInMemory = RockTunesRepositoryInMemory(mutableListOf(), mutableListOf(song))
+
+
+        val result = rockTunesRepositoryInMemory.findAllSongsByGenre("Another Genre")
+
+        assertTrue(result.isEmpty())
+    }
 }

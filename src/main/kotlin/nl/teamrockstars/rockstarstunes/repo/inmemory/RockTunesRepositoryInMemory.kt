@@ -13,7 +13,7 @@ class RockTunesRepositoryInMemory(private val artists: MutableList<Artist>, priv
         return artists.find { it.id == id }
     }
 
-    override fun findAllArtists(): List<Artist> = artists.toList()
+    override fun findAllArtists(): List<Artist> = artists
 
     override fun saveArtist(artist: Artist): Result<Artist> =
         if (artists.hasArtistWithId(artist.id)) {
@@ -97,7 +97,11 @@ class RockTunesRepositoryInMemory(private val artists: MutableList<Artist>, priv
             Result.failure(ResourceNotFoundException("Het liedje bestaat niet"))
         }
 
-    override fun findAllSongs(): List<Song> = songs.toList()
+    override fun findAllSongs(): List<Song> = songs
+
+    override fun findAllSongsByGenre(genre: String): List<Song> {
+        return songs.filter { it.genre == genre }
+    }
 
     private fun List<Artist>.hasArtistWithId(id: Long) = this.any { it.id == id }
 

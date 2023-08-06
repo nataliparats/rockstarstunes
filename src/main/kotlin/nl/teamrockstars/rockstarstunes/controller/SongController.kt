@@ -66,6 +66,12 @@ class SongController(
         return ResponseEntity(songs, HttpStatus.OK)
     }
 
+    @GetMapping("/songs/genre/{genre}")
+    fun findAllSongsByGenreAndYear(@PathVariable genre: String): ResponseEntity<List<Song>> {
+        val songs = rockTunesRepository.findAllSongsByGenre(genre)
+        return ResponseEntity(songs, HttpStatus.OK)
+    }
+
 
     @ExceptionHandler
     fun handleExceptions(exception: Exception) = when (exception) {
